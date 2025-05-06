@@ -90,7 +90,7 @@
                 "display": {
                   "cssClasses": "uk-disabled",
                   "hasBorder": false,
-                  "order": 0,
+                  "order": 1,
                   "placement": null,
                   "style": null,
                   "visible": false
@@ -126,6 +126,53 @@
               }
             },
             {
+              "id": "node",
+              "name": "node",
+              "label": {
+                "cssClasses": null,
+                "showLess": false,
+                "style": null,
+                "text": "Node"
+              },
+              "kind": null,
+              "typeInfo": {
+                "multiplicity": false,
+                "prefill": null,
+                "type": "vocabulary",
+                "values": null,
+                "vocabulary": "NODE"
+              },
+              "deprecated": false,
+              "form": {
+                "affects": null,
+                "dependsOn": null,
+                "description": {
+                  "cssClasses": null,
+                  "showLess": false,
+                  "style": null,
+                  "text": "The node in which the Monitoring extension belongs to."
+                },
+                "display": {
+                  "cssClasses": null,
+                  "hasBorder": false,
+                  "order": 2,
+                  "placement": null,
+                  "style": null,
+                  "visible": true
+                },
+                "immutable": true,
+                "mandatory": false,
+                "placeholder": null,
+                "suggestion": {
+                  "cssClasses": null,
+                  "showLess": false,
+                  "style": null,
+                  "text": null
+                }
+              },
+              "subFields": []
+            },
+            {
               "deprecated": false,
               "form": {
                 "affects": null,
@@ -139,7 +186,7 @@
                 "display": {
                   "cssClasses": null,
                   "hasBorder": false,
-                  "order": 0,
+                  "order": 3,
                   "placement": null,
                   "style": null,
                   "visible": false
@@ -214,7 +261,7 @@
                 "immutable": true,
                 "display": {
                   "placement": null,
-                  "order": 1,
+                  "order": 4,
                   "visible": true,
                   "hasBorder": true,
                   "cssClasses": null,

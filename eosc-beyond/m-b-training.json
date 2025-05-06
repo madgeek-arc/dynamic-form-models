@@ -122,6 +122,53 @@
                 "subFields": []
               },
               {
+              "id": "node",
+              "name": "node",
+              "label": {
+                "cssClasses": null,
+                "showLess": false,
+                "style": null,
+                "text": "Node"
+              },
+              "kind": null,
+              "typeInfo": {
+                "multiplicity": false,
+                "prefill": null,
+                "type": "vocabulary",
+                "values": null,
+                "vocabulary": "NODE"
+              },
+              "deprecated": false,
+              "form": {
+                "affects": null,
+                "dependsOn": null,
+                "description": {
+                  "cssClasses": null,
+                  "showLess": false,
+                  "style": null,
+                  "text": "The node in which the Training Resource belongs to."
+                },
+                "display": {
+                  "cssClasses": null,
+                  "hasBorder": false,
+                  "order": 2,
+                  "placement": null,
+                  "style": null,
+                  "visible": true
+                },
+                "immutable": true,
+                "mandatory": false,
+                "placeholder": null,
+                "suggestion": {
+                  "cssClasses": null,
+                  "showLess": false,
+                  "style": null,
+                  "text": null
+                }
+              },
+              "subFields": []
+            },
+              {
                 "id": "resourceOrganisation",
                 "name": "resourceOrganisation",
                 "label": {
@@ -151,7 +198,7 @@
                   "display": {
                     "cssClasses": "uk-disabled",
                     "hasBorder": false,
-                    "order": 2,
+                    "order": 3,
                     "placement": null,
                     "style": null,
                     "visible": true
@@ -198,7 +245,7 @@
                   "display": {
                     "cssClasses": null,
                     "hasBorder": false,
-                    "order": 3,
+                    "order": 4,
                     "placement": null,
                     "style": null,
                     "visible": true
@@ -245,7 +292,7 @@
                   "display": {
                     "cssClasses": null,
                     "hasBorder": false,
-                    "order": 4,
+                    "order": 5,
                     "placement": null,
                     "style": null,
                     "visible": true
@@ -292,7 +339,7 @@
                   "display": {
                     "cssClasses": null,
                     "hasBorder": false,
-                    "order": 5,
+                    "order": 6,
                     "placement": null,
                     "style": null,
                     "visible": true
@@ -339,7 +386,7 @@
                   "display": {
                     "cssClasses": null,
                     "hasBorder": false,
-                    "order": 6,
+                    "order": 7,
                     "placement": null,
                     "style": null,
                     "visible": true
@@ -386,7 +433,7 @@
                   "display": {
                     "cssClasses": null,
                     "hasBorder": false,
-                    "order": 7,
+                    "order": 8,
                     "placement": null,
                     "style": null,
                     "visible": true
@@ -441,7 +488,7 @@
                 "immutable": true,
                 "display": {
                   "placement": null,
-                  "order": 8,
+                  "order": 9,
                   "visible": true,
                   "hasBorder": true,
                   "cssClasses": null,

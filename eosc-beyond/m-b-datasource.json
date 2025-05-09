@@ -20,155 +20,108 @@
       "order": null,
       "subSections": [
         {
-          "id": "DatasourcePolicies",
-          "name": "Datasource Policies",
+          "id": "BasicInformation",
+          "name": "Basic Information",
           "description": null,
           "subType": null,
           "order": 1,
           "subSections": null,
           "fields": [
-              {
-                "id": "id",
-                "name": "id",
-                "label": {
+            {
+              "id": "id",
+              "name": "id",
+              "label": {
+                "cssClasses": null,
+                "showLess": false,
+                "style": null,
+                "text": "Id"
+              },
+              "kind": null,
+              "typeInfo": {
+                "multiplicity": false,
+                "prefill": null,
+                "type": "string",
+                "values": null,
+                "vocabulary": null
+              },
+              "deprecated": false,
+              "form": {
+                "affects": null,
+                "dependsOn": null,
+                "description": {
                   "cssClasses": null,
                   "showLess": false,
                   "style": null,
-                  "text": "Id"
+                  "text": null
                 },
-                "kind": null,
-                "typeInfo": {
-                  "multiplicity": false,
-                  "prefill": null,
-                  "type": "string",
-                  "values": null,
-                  "vocabulary": null
+                "display": {
+                  "cssClasses": "uk-disabled",
+                  "hasBorder": false,
+                  "order": 0,
+                  "placement": null,
+                  "style": null,
+                  "visible": false
                 },
-                "deprecated": false,
-                "form": {
-                  "affects": null,
-                  "dependsOn": null,
-                  "description": {
-                    "cssClasses": null,
-                    "showLess": false,
-                    "style": null,
-                    "text": null
-                  },
-                  "display": {
-                    "cssClasses": "uk-disabled",
-                    "hasBorder": false,
-                    "order": 0,
-                    "placement": null,
-                    "style": null,
-                    "visible": false
-                  },
-                  "immutable": true,
-                  "mandatory": false,
-                  "placeholder": null,
-                  "suggestion": {
-                    "cssClasses": null,
-                    "showLess": false,
-                    "style": null,
-                    "text": null
-                  }
-                },
-                "subFields": []
-              },
-              {
-                "id": "serviceId",
-                "name": "serviceId",
-                "label": {
+                "immutable": true,
+                "mandatory": false,
+                "placeholder": null,
+                "suggestion": {
                   "cssClasses": null,
                   "showLess": false,
                   "style": null,
-                  "text": "Id"
-                },
-                "kind": null,
-                "typeInfo": {
-                  "multiplicity": false,
-                  "prefill": null,
-                  "type": "string",
-                  "values": null,
-                  "vocabulary": null
-                },
-                "deprecated": false,
-                "form": {
-                  "affects": null,
-                  "dependsOn": null,
-                  "description": {
-                    "cssClasses": null,
-                    "showLess": false,
-                    "style": null,
-                    "text": null
-                  },
-                  "display": {
-                    "cssClasses": "uk-disabled",
-                    "hasBorder": false,
-                    "order": 1,
-                    "placement": null,
-                    "style": null,
-                    "visible": false
-                  },
-                  "immutable": true,
-                  "mandatory": false,
-                  "placeholder": null,
-                  "suggestion": {
-                    "cssClasses": null,
-                    "showLess": false,
-                    "style": null,
-                    "text": null
-                  }
-                },
-                "subFields": []
+                  "text": null
+                }
               },
-              {
-                "id": "catalogueId",
-                "name": "catalogueId",
-                "label": {
+              "subFields": []
+            },
+            {
+              "id": "serviceId",
+              "name": "serviceId",
+              "label": {
+                "cssClasses": null,
+                "showLess": false,
+                "style": null,
+                "text": "Id"
+              },
+              "kind": null,
+              "typeInfo": {
+                "multiplicity": false,
+                "prefill": null,
+                "type": "string",
+                "values": null,
+                "vocabulary": null
+              },
+              "deprecated": false,
+              "form": {
+                "affects": null,
+                "dependsOn": null,
+                "description": {
                   "cssClasses": null,
                   "showLess": false,
                   "style": null,
-                  "text": "Id"
+                  "text": null
                 },
-                "kind": null,
-                "typeInfo": {
-                  "multiplicity": false,
-                  "prefill": null,
-                  "type": "string",
-                  "values": null,
-                  "vocabulary": null
+                "display": {
+                  "cssClasses": "uk-disabled",
+                  "hasBorder": false,
+                  "order": 1,
+                  "placement": null,
+                  "style": null,
+                  "visible": false
                 },
-                "deprecated": false,
-                "form": {
-                  "affects": null,
-                  "dependsOn": null,
-                  "description": {
-                    "cssClasses": null,
-                    "showLess": false,
-                    "style": null,
-                    "text": null
-                  },
-                  "display": {
-                    "cssClasses": "uk-disabled",
-                    "hasBorder": false,
-                    "order": 2,
-                    "placement": null,
-                    "style": null,
-                    "visible": false
-                  },
-                  "immutable": true,
-                  "mandatory": false,
-                  "placeholder": null,
-                  "suggestion": {
-                    "cssClasses": null,
-                    "showLess": false,
-                    "style": null,
-                    "text": null
-                  }
-                },
-                "subFields": []
+                "immutable": true,
+                "mandatory": false,
+                "placeholder": null,
+                "suggestion": {
+                  "cssClasses": null,
+                  "showLess": false,
+                  "style": null,
+                  "text": null
+                }
               },
-              {
+              "subFields": []
+            },
+            {
               "id": "node",
               "name": "node",
               "label": {
@@ -198,7 +151,7 @@
                 "display": {
                   "cssClasses": null,
                   "hasBorder": false,
-                  "order": 3,
+                  "order": 2,
                   "placement": null,
                   "style": null,
                   "visible": true
@@ -215,6 +168,63 @@
               },
               "subFields": []
             },
+            {
+              "id": "catalogueId",
+              "name": "catalogueId",
+              "label": {
+                "cssClasses": null,
+                "showLess": false,
+                "style": null,
+                "text": "Id"
+              },
+              "kind": null,
+              "typeInfo": {
+                "multiplicity": false,
+                "prefill": null,
+                "type": "string",
+                "values": null,
+                "vocabulary": null
+              },
+              "deprecated": false,
+              "form": {
+                "affects": null,
+                "dependsOn": null,
+                "description": {
+                  "cssClasses": null,
+                  "showLess": false,
+                  "style": null,
+                  "text": null
+                },
+                "display": {
+                  "cssClasses": "uk-disabled",
+                  "hasBorder": false,
+                  "order": 3,
+                  "placement": null,
+                  "style": null,
+                  "visible": true
+                },
+                "immutable": true,
+                "mandatory": false,
+                "placeholder": null,
+                "suggestion": {
+                  "cssClasses": null,
+                  "showLess": false,
+                  "style": null,
+                  "text": null
+                }
+              },
+              "subFields": []
+            }
+            ]
+        },
+        {
+          "id": "DatasourcePolicies",
+          "name": "Datasource Policies",
+          "description": null,
+          "subType": null,
+          "order": 2,
+          "subSections": null,
+          "fields": [
               {
                 "id": "submissionPolicyURL",
                 "name": "submissionPolicyURL",
@@ -507,7 +517,7 @@
           "name": "Datasource Content",
           "description": null,
           "subType": null,
-          "order": 2,
+          "order": 3,
           "subSections": null,
           "fields": [
               {
@@ -758,7 +768,7 @@
           "name": "Research Product Policies",
           "description": null,
           "subType": null,
-          "order": 3,
+          "order": 4,
           "subSections": null,
           "fields": [
               {
@@ -957,7 +967,7 @@
           "name": "Research Product Metadata",
           "description": null,
           "subType": null,
-          "order": 4,
+          "order": 5,
           "subSections": null,
           "fields": [
 {

@@ -1857,7 +1857,7 @@
                       "visible": true
                     },
                     "immutable": true,
-                    "mandatory": false,
+                    "mandatory": true,
                     "placeholder": null,
                     "suggestion": {
                       "cssClasses": null,

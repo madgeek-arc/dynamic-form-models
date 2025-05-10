@@ -169,6 +169,53 @@
                 "subFields": []
               },
               {
+                "id": "node",
+                "name": "node",
+                "label": {
+                  "cssClasses": null,
+                  "showLess": false,
+                  "style": null,
+                  "text": "Node"
+                },
+                "kind": null,
+                "typeInfo": {
+                  "multiplicity": false,
+                  "prefill": null,
+                  "type": "vocabulary",
+                  "values": null,
+                  "vocabulary": "NODE"
+                },
+                "deprecated": false,
+                "form": {
+                  "affects": null,
+                  "dependsOn": null,
+                  "description": {
+                    "cssClasses": null,
+                    "showLess": false,
+                    "style": null,
+                    "text": "The node in which the Catalogue belongs to."
+                  },
+                  "display": {
+                    "cssClasses": null,
+                    "hasBorder": false,
+                    "order": 3,
+                    "placement": null,
+                    "style": null,
+                    "visible": true
+                  },
+                  "immutable": true,
+                  "mandatory": false,
+                  "placeholder": null,
+                  "suggestion": {
+                    "cssClasses": null,
+                    "showLess": false,
+                    "style": null,
+                    "text": null
+                  }
+                },
+                "subFields": []
+              },
+              {
                 "id": "website",
                 "name": "website",
                 "label": {
@@ -198,7 +245,7 @@
                   "display": {
                     "cssClasses": null,
                     "hasBorder": false,
-                    "order": 3,
+                    "order": 4,
                     "placement": null,
                     "style": null,
                     "visible": true
@@ -248,7 +295,7 @@
                   "display": {
                     "cssClasses": null,
                     "hasBorder": false,
-                    "order": 4,
+                    "order": 5,
                     "placement": null,
                     "style": null,
                     "visible": true
@@ -299,7 +346,7 @@
                   "display": {
                     "cssClasses": null,
                     "hasBorder": false,
-                    "order": 5,
+                    "order": 6,
                     "placement": null,
                     "style": null,
                     "visible": true
@@ -346,7 +393,7 @@
                   "display": {
                     "cssClasses": null,
                     "hasBorder": false,
-                    "order": 6,
+                    "order": 7,
                     "placement": null,
                     "style": null,
                     "visible": true
@@ -362,7 +409,195 @@
                   }
                 },
                 "subFields": []
-              }
+              },
+              {
+              "id": "inclusionCriteria",
+              "name": "inclusionCriteria",
+              "label": {
+                "cssClasses": null,
+                "showLess": false,
+                "style": null,
+                "text": "Inclusion Criteria"
+              },
+              "kind": null,
+              "typeInfo": {
+                "multiplicity": false,
+                "prefill": null,
+                "type": "url",
+                "values": null,
+                "vocabulary": null
+              },
+              "deprecated": false,
+              "form": {
+                "affects": null,
+                "dependsOn": null,
+                "description": {
+                  "cssClasses": null,
+                  "showLess": false,
+                  "style": null,
+                  "text": "Please provide a link to the Inclusion Criteria used to populate the Catalogue."
+                },
+                "display": {
+                  "cssClasses": null,
+                  "hasBorder": false,
+                  "order": 8,
+                  "placement": null,
+                  "style": null,
+                  "visible": true
+                },
+                "immutable": true,
+                "mandatory": true,
+                "placeholder": null,
+                "suggestion": {
+                  "cssClasses": null,
+                  "showLess": false,
+                  "style": null,
+                  "text": null
+                }
+              },
+              "subFields": []
+            },
+              {
+              "id": "validationProcess",
+              "name": "validationProcess",
+              "label": {
+                "cssClasses": null,
+                "showLess": false,
+                "style": null,
+                "text": "Validation Process"
+              },
+              "kind": null,
+              "typeInfo": {
+                "multiplicity": false,
+                "prefill": null,
+                "type": "url",
+                "values": null,
+                "vocabulary": null
+              },
+              "deprecated": false,
+              "form": {
+                "affects": null,
+                "dependsOn": null,
+                "description": {
+                  "cssClasses": null,
+                  "showLess": false,
+                  "style": null,
+                  "text": "Please provide a link to the document describing how validation is done and how the assessment against the Inclusion Criteria is performed."
+                },
+                "display": {
+                  "cssClasses": null,
+                  "hasBorder": false,
+                  "order": 9,
+                  "placement": null,
+                  "style": null,
+                  "visible": true
+                },
+                "immutable": true,
+                "mandatory": true,
+                "placeholder": null,
+                "suggestion": {
+                  "cssClasses": null,
+                  "showLess": false,
+                  "style": null,
+                  "text": null
+                }
+              },
+              "subFields": []
+            },
+              {
+              "id": "endOfLife",
+              "name": "endOfLife",
+              "label": {
+                "cssClasses": null,
+                "showLess": false,
+                "style": null,
+                "text": "End Of Life"
+              },
+              "kind": null,
+              "typeInfo": {
+                "multiplicity": false,
+                "prefill": null,
+                "type": "string",
+                "values": null,
+                "vocabulary": null
+              },
+              "deprecated": false,
+              "form": {
+                "affects": null,
+                "dependsOn": null,
+                "description": {
+                  "cssClasses": null,
+                  "showLess": false,
+                  "style": null,
+                  "text": "In terms of sustainability, what is the expected life of the catalogue?"
+                },
+                "display": {
+                  "cssClasses": null,
+                  "hasBorder": false,
+                  "order": 10,
+                  "placement": null,
+                  "style": null,
+                  "visible": true
+                },
+                "immutable": true,
+                "mandatory": true,
+                "placeholder": null,
+                "suggestion": {
+                  "cssClasses": null,
+                  "showLess": false,
+                  "style": null,
+                  "text": null
+                }
+              },
+              "subFields": []
+            },
+              {
+              "id": "scope",
+              "name": "scope",
+              "label": {
+                "cssClasses": null,
+                "showLess": false,
+                "style": null,
+                "text": "Scope"
+              },
+              "kind": null,
+              "typeInfo": {
+                "multiplicity": false,
+                "prefill": null,
+                "type": "string",
+                "values": null,
+                "vocabulary": null
+              },
+              "deprecated": false,
+              "form": {
+                "affects": null,
+                "dependsOn": null,
+                "description": {
+                  "cssClasses": null,
+                  "showLess": false,
+                  "style": null,
+                  "text": "A description of the catalogue scope, e.g. Thematic catalogue (specify thematic area), National catalogue (specify Country), etc."
+                },
+                "display": {
+                  "cssClasses": null,
+                  "hasBorder": false,
+                  "order": 11,
+                  "placement": null,
+                  "style": null,
+                  "visible": true
+                },
+                "immutable": true,
+                "mandatory": true,
+                "placeholder": null,
+                "suggestion": {
+                  "cssClasses": null,
+                  "showLess": false,
+                  "style": null,
+                  "text": null
+                }
+              },
+              "subFields": []
+            }
           ]
         },
         {

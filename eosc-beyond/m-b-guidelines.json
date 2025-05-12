@@ -182,7 +182,7 @@
                 "type": "composite",
                 "values": null,
                 "vocabulary": null,
-                "multiplicity": true,
+                "multiplicity": false,
                 "prefill": null
               },
               "deprecated": false,
@@ -281,11 +281,7 @@
                   "deprecated": false,
                   "form": {
                     "affects": null,
-                    "dependsOn": {
-                      "id": null,
-                      "name": null,
-                      "value": null
-                    },
+                    "dependsOn": null,
                     "description": {
                       "cssClasses": null,
                       "showLess": false,
@@ -568,11 +564,7 @@
                   "deprecated": false,
                   "form": {
                     "affects": null,
-                    "dependsOn": {
-                      "id": null,
-                      "name": null,
-                      "value": null
-                    },
+                    "dependsOn": null,
                     "description": {
                       "cssClasses": null,
                       "showLess": false,
@@ -808,11 +800,7 @@
                   "deprecated": false,
                   "form": {
                     "affects": null,
-                    "dependsOn": {
-                      "id": null,
-                      "name": null,
-                      "value": null
-                    },
+                    "dependsOn": null,
                     "description": {
                       "cssClasses": null,
                       "showLess": false,
@@ -953,11 +941,7 @@
                   "deprecated": false,
                   "form": {
                     "affects": null,
-                    "dependsOn": {
-                      "id": null,
-                      "name": null,
-                      "value": null
-                    },
+                    "dependsOn": null,
                     "description": {
                       "cssClasses": null,
                       "showLess": false,
@@ -1004,11 +988,7 @@
                   "deprecated": false,
                   "form": {
                     "affects": null,
-                    "dependsOn": {
-                      "id": null,
-                      "name": null,
-                      "value": null
-                    },
+                    "dependsOn": null,
                     "description": {
                       "cssClasses": null,
                       "showLess": false,
@@ -1583,11 +1563,7 @@
                   "deprecated": false,
                   "form": {
                     "affects": null,
-                    "dependsOn": {
-                      "id": null,
-                      "name": null,
-                      "value": null
-                    },
+                    "dependsOn": null,
                     "description": {
                       "cssClasses": null,
                       "showLess": false,
@@ -1870,11 +1846,7 @@
                   "deprecated": false,
                   "form": {
                     "affects": null,
-                    "dependsOn": {
-                      "id": null,
-                      "name": null,
-                      "value": null
-                    },
+                    "dependsOn": null,
                     "description": {
                       "cssClasses": null,
                       "showLess": false,

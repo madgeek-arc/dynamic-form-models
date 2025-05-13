@@ -606,7 +606,7 @@
               "typeInfo": {
                 "multiplicity": false,
                 "prefill": null,
-                "type": "date",
+                "type": "string",
                 "values": null,
                 "vocabulary": null
               },
@@ -653,7 +653,7 @@
               "typeInfo": {
                 "multiplicity": false,
                 "prefill": null,
-                "type": "date",
+                "type": "string",
                 "values": null,
                 "vocabulary": null
               },

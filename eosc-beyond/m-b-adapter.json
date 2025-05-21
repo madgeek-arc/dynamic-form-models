@@ -893,7 +893,7 @@
               },
               "subFields": [
                 {
-                  "id": "name",
+                  "id": "maintainersName",
                   "name": "name",
                   "label": {
                     "cssClasses": null,

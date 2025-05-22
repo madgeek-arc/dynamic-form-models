@@ -275,9 +275,9 @@
               "typeInfo": {
                 "multiplicity": false,
                 "prefill": null,
-                "type": "string",
+                "type": "vocabulary",
                 "values": null,
-                "vocabulary": null
+                "vocabulary": "ADAPTER_RESOURCES_VOC"
               },
               "deprecated": false,
               "form": {

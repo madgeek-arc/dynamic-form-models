@@ -800,8 +800,8 @@
           "subSections": null,
           "fields": [
             {
-              "id": "users",
-              "name": "users",
+              "id": "admins",
+              "name": "admins",
               "label": {
                 "text": "Administrators",
                 "cssClasses": null,

@@ -2232,7 +2232,7 @@
                     "prefill": null,
                     "type": "string",
                     "values": null,
-                    "vocabulary": "Last Name"
+                    "vocabulary": null
                   },
                   "deprecated": false,
                   "form": {

@@ -3,7 +3,7 @@
   "name": "Monitoring extension",
   "description": null,
   "notice": "Τhis is the place where you start monitoring your service. You can add multiple service configurations based on the type of your service.",
-  "type": "eosc-a",
+  "vocabulary": null,
   "subType": null,
   "series": null,
   "resourceType": "monitoring",

@@ -60,7 +60,7 @@
                   "order": 0,
                   "placement": null,
                   "style": null,
-                  "visible": true
+                  "visible": false
                 },
                 "immutable": true,
                 "mandatory": false,
@@ -107,7 +107,7 @@
                   "order": 1,
                   "placement": null,
                   "style": null,
-                  "visible": true
+                  "visible": false
                 },
                 "immutable": true,
                 "mandatory": true,
@@ -154,7 +154,7 @@
                   "order": 2,
                   "placement": null,
                   "style": null,
-                  "visible": true
+                  "visible": false
                 },
                 "immutable": true,
                 "mandatory": true,
@@ -201,7 +201,101 @@
                   "order": 3,
                   "placement": null,
                   "style": null,
-                  "visible": true
+                  "visible": false
+                },
+                "immutable": true,
+                "mandatory": false,
+                "placeholder": null,
+                "suggestion": {
+                  "cssClasses": null,
+                  "showLess": false,
+                  "style": null,
+                  "text": null
+                }
+              },
+              "subFields": []
+            },
+            {
+              "id": "node",
+              "name": "node",
+              "label": {
+                "cssClasses": null,
+                "showLess": false,
+                "style": null,
+                "text": "Node"
+              },
+              "kind": null,
+              "typeInfo": {
+                "multiplicity": false,
+                "prefill": null,
+                "type": "string",
+                "values": null,
+                "vocabulary": null
+              },
+              "deprecated": false,
+              "form": {
+                "affects": null,
+                "dependsOn": null,
+                "description": {
+                  "cssClasses": null,
+                  "showLess": false,
+                  "style": null,
+                  "text": null
+                },
+                "display": {
+                  "cssClasses": "uk-disabled",
+                  "hasBorder": false,
+                  "order": 4,
+                  "placement": null,
+                  "style": null,
+                  "visible": false
+                },
+                "immutable": true,
+                "mandatory": false,
+                "placeholder": null,
+                "suggestion": {
+                  "cssClasses": null,
+                  "showLess": false,
+                  "style": null,
+                  "text": null
+                }
+              },
+              "subFields": []
+            },
+            {
+              "id": "description",
+              "name": "description",
+              "label": {
+                "cssClasses": null,
+                "showLess": false,
+                "style": null,
+                "text": "Description"
+              },
+              "kind": null,
+              "typeInfo": {
+                "multiplicity": false,
+                "prefill": null,
+                "type": "string",
+                "values": null,
+                "vocabulary": null
+              },
+              "deprecated": false,
+              "form": {
+                "affects": null,
+                "dependsOn": null,
+                "description": {
+                  "cssClasses": null,
+                  "showLess": false,
+                  "style": null,
+                  "text": null
+                },
+                "display": {
+                  "cssClasses": "uk-disabled",
+                  "hasBorder": false,
+                  "order": 5,
+                  "placement": null,
+                  "style": null,
+                  "visible": false
                 },
                 "immutable": true,
                 "mandatory": false,

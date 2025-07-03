@@ -55,7 +55,7 @@
                   "text": null
                 },
                 "display": {
-                  "cssClasses": null,
+                  "cssClasses": "uk-disabled",
                   "hasBorder": false,
                   "order": 0,
                   "placement": null,
@@ -102,7 +102,7 @@
                   "text": null
                 },
                 "display": {
-                  "cssClasses": null,
+                  "cssClasses": "uk-disabled",
                   "hasBorder": false,
                   "order": 1,
                   "placement": null,
@@ -149,7 +149,7 @@
                   "text": null
                 },
                 "display": {
-                  "cssClasses": null,
+                  "cssClasses": "uk-disabled",
                   "hasBorder": false,
                   "order": 2,
                   "placement": null,

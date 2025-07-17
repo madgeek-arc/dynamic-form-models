@@ -204,7 +204,7 @@
                   "visible": true
                 },
                 "immutable": true,
-                "mandatory": false,
+                "mandatory": true,
                 "placeholder": null,
                 "suggestion": {
                   "cssClasses": null,
@@ -296,7 +296,7 @@
                   "showLess": false
                 },
                 "placeholder": null,
-                "mandatory": false,
+                "mandatory": true,
                 "immutable": true,
                 "display": {
                   "placement": null,

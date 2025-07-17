@@ -1308,7 +1308,7 @@
               },
               "kind": null,
               "typeInfo": {
-                "multiplicity": true,
+                "multiplicity": false,
                 "prefill": null,
                 "type": "vocabulary",
                 "values": null,

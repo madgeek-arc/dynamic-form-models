@@ -368,7 +368,7 @@
           "fields": [
             {
               "id": "scientificDomains",
-              "name": "scientificDomain",
+              "name": "scientificDomains",
               "label": {
                 "text": "Scientific Categorisation",
                 "cssClasses": null,
@@ -460,8 +460,8 @@
                   "subFields": []
                 },
                 {
-                  "id": "scientificSubdomains",
-                  "name": "scientificSubdomains",
+                  "id": "scientificSubdomain",
+                  "name": "scientificSubdomain",
                   "label": {
                     "cssClasses": null,
                     "showLess": false,

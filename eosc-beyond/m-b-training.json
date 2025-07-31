@@ -414,7 +414,7 @@
                 },
                 "kind": null,
                 "typeInfo": {
-                  "multiplicity": false,
+                  "multiplicity": true,
                   "prefill": null,
                   "type": "vocabulary",
                   "values": null,

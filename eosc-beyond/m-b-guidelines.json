@@ -630,7 +630,7 @@
                 },
                 "immutable": true,
                 "mandatory": false,
-                "placeholder": null,
+                "placeholder": "Generated automatically",
                 "suggestion": {
                   "cssClasses": null,
                   "showLess": false,
@@ -640,7 +640,7 @@
               },
               "subFields": []
             },
-              {
+            {
               "id": "updated",
               "name": "updated",
               "label": {
@@ -677,7 +677,7 @@
                 },
                 "immutable": true,
                 "mandatory": false,
-                "placeholder": null,
+                "placeholder": "Generated automatically",
                 "suggestion": {
                   "cssClasses": null,
                   "showLess": false,

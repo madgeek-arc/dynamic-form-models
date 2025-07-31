@@ -357,7 +357,7 @@
                     "group": null,
                     "immutable": true,
                     "mandatory": true,
-                    "placeholder": null,
+                    "placeholder": "use http:// or https://",
                     "suggestion": {
                       "cssClasses": null,
                       "showLess": false,

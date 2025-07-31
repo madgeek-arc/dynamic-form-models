@@ -495,7 +495,7 @@
                 },
                 "immutable": true,
                 "mandatory": false,
-                "placeholder": null,
+                "placeholder": "use http:// or https://",
                 "suggestion": {
                   "cssClasses": null,
                   "showLess": false,

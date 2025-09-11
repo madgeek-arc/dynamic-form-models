@@ -3140,7 +3140,7 @@
                   "cssClasses": null,
                   "showLess": false,
                   "style": null,
-                  "text": "Funding Program "
+                  "text": "Funding Program"
                 },
                 "kind": null,
                 "typeInfo": {
@@ -3148,7 +3148,7 @@
                   "prefill": null,
                   "type": "vocabulary",
                   "values": null,
-                  "vocabulary": "FUNDING_BODY"
+                  "vocabulary": "FUNDING_PROGRAM"
                 },
                 "deprecated": false,
                 "form": {

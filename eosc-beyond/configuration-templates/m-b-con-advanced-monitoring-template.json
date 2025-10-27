@@ -1,6 +1,6 @@
 {
-  "id": "m-b-con-DV60LA",
-  "name": "Configuration Template for Advanced Monitoring",
+  "id": "m-b-con-MkRrZC",
+  "name": "EOSC Configuration Template for Probes",
   "description": "Configuration Template",
   "notice": "Fields with (*) are mandatory and must be completed in order to submit this form.",
   "vocabulary": null,
@@ -462,7 +462,7 @@
                   },
                   "kind": null,
                   "typeInfo": {
-                    "type": "string",
+                    "type": "url",
                     "values": null,
                     "vocabulary": null,
                     "multiplicity": false,
@@ -500,13 +500,13 @@
                   }
                 },
                 {
-                  "id": "switcher",
-                  "name": "switcher",
+                  "id": "candidate_type",
+                  "name": "candidate_type",
                   "label": {
                     "cssClasses": null,
                     "showLess": false,
                     "style": null,
-                    "text": "Switcher"
+                    "text": "Candidate Type"
                   },
                   "kind": null,
                   "typeInfo": {
@@ -514,8 +514,9 @@
                     "prefill": null,
                     "type": "radio",
                     "values": [
-                      "rpm & yum_baseurl",
-                      "script"
+                      "script",
+                      "rpm",
+                      "repository"
                     ],
                     "vocabulary": null
                   },
@@ -527,7 +528,7 @@
                       "cssClasses": null,
                       "showLess": false,
                       "style": null,
-                      "text": "Specify if fields 'rpm' and 'yum_baseurl' are used, or 'script' field instead."
+                      "text": "Choose candidate type."
                     },
                     "display": {
                       "cssClasses": null,
@@ -570,9 +571,9 @@
                   "deprecated": false,
                   "form": {
                     "dependsOn": {
-                      "id": "switcher",
-                      "name": "switcher",
-                      "value": "rpm & yum_baseurl"
+                      "id": "candidate_type",
+                      "name": "candidate_type",
+                      "value": ["rpm","repository"]
                     },
                     "affects": null,
                     "group": null,
@@ -602,17 +603,17 @@
                   }
                 },
                 {
-                  "id": "yum_baseurl",
-                  "name": "yum_baseurl",
+                  "id": "repo_url",
+                  "name": "repo_url",
                   "label": {
-                    "text": "YUM base URL",
+                    "text": "Repo URL",
                     "cssClasses": null,
                     "style": null,
                     "showLess": false
                   },
                   "kind": null,
                   "typeInfo": {
-                    "type": "string",
+                    "type": "url",
                     "values": null,
                     "vocabulary": null,
                     "multiplicity": false,
@@ -622,61 +623,9 @@
                   "deprecated": false,
                   "form": {
                     "dependsOn": {
-                      "id": "switcher",
-                      "name": "switcher",
-                      "value": "rpm & yum_baseurl"
-                    },
-                    "affects": null,
-                    "group": null,
-                    "description": {
-                      "text": null,
-                      "cssClasses": null,
-                      "style": null,
-                      "showLess": false
-                    },
-                    "suggestion": {
-                      "text": null,
-                      "cssClasses": null,
-                      "style": null,
-                      "showLess": false
-                    },
-                    "placeholder": null,
-                    "mandatory": true,
-                    "immutable": true,
-                    "display": {
-                      "placement": null,
-                      "order": 10,
-                      "visible": true,
-                      "hasBorder": true,
-                      "cssClasses": null,
-                      "style": null
-                    }
-                  }
-                },
-                {
-                  "id": "script",
-                  "name": "script",
-                  "label": {
-                    "text": "Script",
-                    "cssClasses": null,
-                    "style": null,
-                    "showLess": false
-                  },
-                  "kind": null,
-                  "typeInfo": {
-                    "type": "string",
-                    "values": null,
-                    "vocabulary": null,
-                    "multiplicity": false,
-                    "prefill": null
-                  },
-                  "includedInSnippet": false,
-                  "deprecated": false,
-                  "form": {
-                    "dependsOn": {
-                      "id": "switcher",
-                      "name": "switcher",
-                      "value": "script"
+                      "id": "candidate_type",
+                      "name": "candidate_type",
+                      "value": ["repository"]
                     },
                     "affects": null,
                     "group": null,
@@ -698,6 +647,58 @@
                     "display": {
                       "placement": null,
                       "order": 11,
+                      "visible": true,
+                      "hasBorder": true,
+                      "cssClasses": null,
+                      "style": null
+                    }
+                  }
+                },
+                {
+                  "id": "script",
+                  "name": "script",
+                  "label": {
+                    "text": "Script",
+                    "cssClasses": null,
+                    "style": null,
+                    "showLess": false
+                  },
+                  "kind": null,
+                  "typeInfo": {
+                    "type": "url",
+                    "values": null,
+                    "vocabulary": null,
+                    "multiplicity": false,
+                    "prefill": null
+                  },
+                  "includedInSnippet": false,
+                  "deprecated": false,
+                  "form": {
+                    "dependsOn": {
+                      "id": "candidate_type",
+                      "name": "candidate_type",
+                      "value": ["script"]
+                    },
+                    "affects": null,
+                    "group": null,
+                    "description": {
+                      "text": null,
+                      "cssClasses": null,
+                      "style": null,
+                      "showLess": false
+                    },
+                    "suggestion": {
+                      "text": null,
+                      "cssClasses": null,
+                      "style": null,
+                      "showLess": false
+                    },
+                    "placeholder": null,
+                    "mandatory": true,
+                    "immutable": true,
+                    "display": {
+                      "placement": null,
+                      "order": 12,
                       "visible": true,
                       "hasBorder": true,
                       "cssClasses": null,

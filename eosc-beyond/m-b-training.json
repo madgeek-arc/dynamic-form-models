@@ -804,7 +804,7 @@
                   "multiplicity": false,
                   "prefill": null,
                   "type": "date",
-                  "values": null,
+                  "values": ["formatDateToString"],
                   "vocabulary": null
                 },
                 "deprecated": false,

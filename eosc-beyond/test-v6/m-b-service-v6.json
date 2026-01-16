@@ -634,7 +634,7 @@
                   "visible": true
                 },
                 "immutable": true,
-                "mandatory": true,
+                "mandatory": false,
                 "placeholder": "use http:// or https://",
                 "suggestion": {
                   "cssClasses": null,
@@ -689,7 +689,7 @@
                   "showLess": false
                 },
                 "placeholder": null,
-                "mandatory": true,
+                "mandatory": false,
                 "immutable": true,
                 "display": {
                   "placement": null,
@@ -835,7 +835,7 @@
                   "showLess": false
                 },
                 "placeholder": null,
-                "mandatory": true,
+                "mandatory": false,
                 "immutable": true,
                 "display": {
                   "placement": null,
@@ -1134,7 +1134,7 @@
                   "visible": true
                 },
                 "immutable": true,
-                "mandatory": true,
+                "mandatory": false,
                 "placeholder": "use http: or https://",
                 "suggestion": {
                   "cssClasses": null,
@@ -1181,7 +1181,7 @@
                   "visible": true
                 },
                 "immutable": true,
-                "mandatory": true,
+                "mandatory": false,
                 "placeholder": "use http: or https://",
                 "suggestion": {
                   "cssClasses": null,
@@ -1228,7 +1228,7 @@
                   "visible": true
                 },
                 "immutable": true,
-                "mandatory": true,
+                "mandatory": false,
                 "placeholder": "use http: or https://",
                 "suggestion": {
                   "cssClasses": null,

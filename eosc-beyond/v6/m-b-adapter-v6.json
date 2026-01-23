@@ -1467,6 +1467,282 @@
               ]
             }
           ]
+        },
+        {
+          "id": "Admins",
+          "name": "Admins",
+          "description": null,
+          "subType": null,
+          "order": 4,
+          "subSections": null,
+          "fields": [
+            {
+              "id": "users",
+              "name": "users",
+              "parentId": null,
+              "parent": null,
+              "label": {
+                "text": "Administrators",
+                "cssClasses": null,
+                "style": null,
+                "showLess": false
+              },
+              "accessPath": null,
+              "kind": null,
+              "typeInfo": {
+                "type": "composite",
+                "values": null,
+                "vocabulary": null,
+                "multiplicity": true,
+                "prefill": null
+              },
+              "includedInSnippet": false,
+              "deprecated": false,
+              "form": {
+                "dependsOn": null,
+                "affects": null,
+                "group": null,
+                "description": {
+                  "text": "An administrator has full edit privileges for the provider’s information via the web and the API (add a new service, update information regarding the provider’s organization and services, activate or delete a service, add or remove administrators and issue tokens for API use).",
+                  "cssClasses": null,
+                  "style": null,
+                  "showLess": false
+                },
+                "suggestion": {
+                  "text": null,
+                  "cssClasses": null,
+                  "style": null,
+                  "showLess": false
+                },
+                "placeholder": null,
+                "mandatory": false,
+                "immutable": true,
+                "display": {
+                  "placement": null,
+                  "order": 1,
+                  "visible": true,
+                  "hasBorder": true,
+                  "cssClasses": null,
+                  "style": null
+                }
+              },
+              "display": null,
+              "subFields": [
+                {
+                  "id": "userId",
+                  "name": "id",
+                  "parentId": "users",
+                  "parent": "users",
+                  "label": {
+                    "text": "Id",
+                    "cssClasses": null,
+                    "style": null,
+                    "showLess": false
+                  },
+                  "accessPath": null,
+                  "kind": null,
+                  "typeInfo": {
+                    "type": "string",
+                    "values": null,
+                    "vocabulary": null,
+                    "multiplicity": false,
+                    "prefill": null
+                  },
+                  "includedInSnippet": false,
+                  "deprecated": false,
+                  "form": {
+                    "dependsOn": null,
+                    "affects": null,
+                    "group": null,
+                    "description": {
+                      "text": null,
+                      "cssClasses": null,
+                      "style": null,
+                      "showLess": false
+                    },
+                    "suggestion": {
+                      "text": null,
+                      "cssClasses": null,
+                      "style": null,
+                      "showLess": false
+                    },
+                    "placeholder": null,
+                    "mandatory": false,
+                    "immutable": true,
+                    "display": {
+                      "placement": null,
+                      "order": 0,
+                      "visible": false,
+                      "hasBorder": false,
+                      "cssClasses": "uk-disabled",
+                      "style": null
+                    }
+                  },
+                  "display": null,
+                  "subFields": []
+                },
+                {
+                  "id": "userName",
+                  "name": "name",
+                  "parentId": "users",
+                  "parent": "users",
+                  "label": {
+                    "text": "First Name",
+                    "cssClasses": null,
+                    "style": null,
+                    "showLess": false
+                  },
+                  "accessPath": null,
+                  "kind": null,
+                  "typeInfo": {
+                    "type": "string",
+                    "values": null,
+                    "vocabulary": null,
+                    "multiplicity": false,
+                    "prefill": null
+                  },
+                  "includedInSnippet": false,
+                  "deprecated": false,
+                  "form": {
+                    "dependsOn": null,
+                    "affects": null,
+                    "group": null,
+                    "description": {
+                      "text": "First Name of the Provider's administrator.",
+                      "cssClasses": null,
+                      "style": null,
+                      "showLess": false
+                    },
+                    "suggestion": {
+                      "text": null,
+                      "cssClasses": null,
+                      "style": null,
+                      "showLess": false
+                    },
+                    "placeholder": null,
+                    "mandatory": true,
+                    "immutable": true,
+                    "display": {
+                      "placement": null,
+                      "order": 1,
+                      "visible": true,
+                      "hasBorder": false,
+                      "cssClasses": null,
+                      "style": null
+                    }
+                  },
+                  "display": null,
+                  "subFields": []
+                },
+                {
+                  "id": "userSurname",
+                  "name": "surname",
+                  "parentId": "users",
+                  "parent": "users",
+                  "label": {
+                    "text": "Last Name",
+                    "cssClasses": null,
+                    "style": null,
+                    "showLess": false
+                  },
+                  "accessPath": null,
+                  "kind": null,
+                  "typeInfo": {
+                    "type": "string",
+                    "values": null,
+                    "vocabulary": null,
+                    "multiplicity": false,
+                    "prefill": null
+                  },
+                  "includedInSnippet": false,
+                  "deprecated": false,
+                  "form": {
+                    "dependsOn": null,
+                    "affects": null,
+                    "group": null,
+                    "description": {
+                      "text": "Last Name of the Provider's administrator.",
+                      "cssClasses": null,
+                      "style": null,
+                      "showLess": false
+                    },
+                    "suggestion": {
+                      "text": null,
+                      "cssClasses": null,
+                      "style": null,
+                      "showLess": false
+                    },
+                    "placeholder": null,
+                    "mandatory": true,
+                    "immutable": true,
+                    "display": {
+                      "placement": null,
+                      "order": 2,
+                      "visible": true,
+                      "hasBorder": false,
+                      "cssClasses": null,
+                      "style": null
+                    }
+                  },
+                  "display": null,
+                  "subFields": []
+                },
+                {
+                  "id": "email",
+                  "name": "email",
+                  "parentId": "users",
+                  "parent": "users",
+                  "label": {
+                    "text": "Email",
+                    "cssClasses": null,
+                    "style": null,
+                    "showLess": false
+                  },
+                  "accessPath": null,
+                  "kind": null,
+                  "typeInfo": {
+                    "type": "email",
+                    "values": null,
+                    "vocabulary": null,
+                    "multiplicity": false,
+                    "prefill": null
+                  },
+                  "includedInSnippet": false,
+                  "deprecated": false,
+                  "form": {
+                    "dependsOn": null,
+                    "affects": null,
+                    "group": null,
+                    "description": {
+                      "text": "Email of the Provider's administrator.",
+                      "cssClasses": null,
+                      "style": null,
+                      "showLess": false
+                    },
+                    "suggestion": {
+                      "text": "Use this email when you login in AAI for gaining administrator privileges for your provider.",
+                      "cssClasses": null,
+                      "style": null,
+                      "showLess": false
+                    },
+                    "placeholder": null,
+                    "mandatory": true,
+                    "immutable": true,
+                    "display": {
+                      "placement": null,
+                      "order": 3,
+                      "visible": true,
+                      "hasBorder": false,
+                      "cssClasses": null,
+                      "style": null
+                    }
+                  },
+                  "display": null,
+                  "subFields": []
+                }
+              ]
+            }
+          ]
         }
       ],
       "fields": null

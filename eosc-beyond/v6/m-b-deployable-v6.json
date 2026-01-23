@@ -306,7 +306,7 @@
                 "immutable": true,
                 "display": {
                   "placement": null,
-                  "order": 2,
+                  "order": 3,
                   "visible": true,
                   "hasBorder": false,
                   "cssClasses": null,
@@ -346,7 +346,7 @@
                 "display": {
                   "cssClasses": null,
                   "hasBorder": false,
-                  "order": 1,
+                  "order": 4,
                   "placement": null,
                   "style": null,
                   "visible": true
@@ -534,7 +534,7 @@
                 "display": {
                   "cssClasses": null,
                   "hasBorder": false,
-                  "order": 9,
+                  "order": 8,
                   "placement": null,
                   "style": null,
                   "visible": true

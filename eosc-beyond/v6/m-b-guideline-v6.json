@@ -458,6 +458,53 @@
               "subFields": []
             },
             {
+              "id": "serviceOwner",
+              "name": "serviceOwner",
+              "label": {
+                "cssClasses": null,
+                "showLess": false,
+                "style": null,
+                "text": "Service Owner"
+              },
+              "kind": null,
+              "typeInfo": {
+                "multiplicity": false,
+                "prefill": null,
+                "type": "vocabulary",
+                "values": null,
+                "vocabulary": "PROVIDERS_VOC"
+              },
+              "deprecated": false,
+              "form": {
+                "affects": null,
+                "dependsOn": null,
+                "description": {
+                  "cssClasses": null,
+                  "showLess": false,
+                  "style": null,
+                  "text": "The name (or abbreviation) of the organisation that manages or delivers the Service, or that coordinates Service delivery in a federated scenario."
+                },
+                "display": {
+                  "cssClasses": "uk-disabled",
+                  "hasBorder": false,
+                  "order": 7,
+                  "placement": null,
+                  "style": null,
+                  "visible": true
+                },
+                "immutable": true,
+                "mandatory": true,
+                "placeholder": null,
+                "suggestion": {
+                  "cssClasses": null,
+                  "showLess": false,
+                  "style": null,
+                  "text": null
+                }
+              },
+              "subFields": []
+            },
+            {
               "id": "resourceTypesInfo",
               "name": "resourceTypesInfo",
               "label": {

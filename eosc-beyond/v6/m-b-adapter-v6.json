@@ -1063,7 +1063,7 @@
                 "dependsOn": null,
                 "affects": null,
                 "description": {
-                  "text": null,
+                  "text": "The main researchers involved in producing the data, or the authors of the publication, in priority order. To supply multiple creators, repeat this property.",
                   "cssClasses": null,
                   "style": null,
                   "showLess": false

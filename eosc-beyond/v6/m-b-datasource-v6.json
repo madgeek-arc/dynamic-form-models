@@ -458,13 +458,13 @@
               "subFields": []
             },
             {
-              "id": "serviceOwner",
-              "name": "serviceOwner",
+              "id": "owner",
+              "name": "owner",
               "label": {
                 "cssClasses": null,
                 "showLess": false,
                 "style": null,
-                "text": "Service Owner"
+                "text": "Owner"
               },
               "kind": null,
               "typeInfo": {

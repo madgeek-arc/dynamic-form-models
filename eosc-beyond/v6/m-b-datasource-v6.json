@@ -122,6 +122,53 @@
               "subFields": []
             },
             {
+              "id": "urls",
+              "name": "urls",
+              "label": {
+                "cssClasses": null,
+                "showLess": false,
+                "style": null,
+                "text": "URLs"
+              },
+              "kind": null,
+              "typeInfo": {
+                "multiplicity": true,
+                "prefill": null,
+                "type": "url",
+                "values": null,
+                "vocabulary": null
+              },
+              "deprecated": false,
+              "form": {
+                "affects": null,
+                "dependsOn": null,
+                "description": {
+                  "cssClasses": null,
+                  "showLess": false,
+                  "style": null,
+                  "text": "URLs resolving to the resource."
+                },
+                "display": {
+                  "cssClasses": null,
+                  "hasBorder": false,
+                  "order": 2,
+                  "placement": null,
+                  "style": null,
+                  "visible": true
+                },
+                "immutable": true,
+                "mandatory": false,
+                "placeholder": "use http:// or https://",
+                "suggestion": {
+                  "cssClasses": null,
+                  "showLess": false,
+                  "style": null,
+                  "text": null
+                }
+              },
+              "subFields": []
+            },
+            {
               "id": "alternativePIDs",
               "name": "alternativePIDs",
               "label": {
@@ -159,7 +206,7 @@
                 "immutable": true,
                 "display": {
                   "placement": null,
-                  "order": 2,
+                  "order": 3,
                   "visible": true,
                   "hasBorder": true,
                   "cssClasses": null,
@@ -306,7 +353,7 @@
                 "immutable": true,
                 "display": {
                   "placement": null,
-                  "order": 2,
+                  "order": 4,
                   "visible": true,
                   "hasBorder": false,
                   "cssClasses": null,
@@ -346,7 +393,7 @@
                 "display": {
                   "cssClasses": null,
                   "hasBorder": false,
-                  "order": 1,
+                  "order": 5,
                   "placement": null,
                   "style": null,
                   "visible": true
@@ -393,7 +440,7 @@
                 "display": {
                   "cssClasses": null,
                   "hasBorder": false,
-                  "order": 5,
+                  "order": 6,
                   "placement": null,
                   "style": null,
                   "visible": true
@@ -440,7 +487,7 @@
                 "display": {
                   "cssClasses": "uk-disabled",
                   "hasBorder": false,
-                  "order": 6,
+                  "order": 7,
                   "placement": null,
                   "style": null,
                   "visible": true
@@ -487,7 +534,7 @@
                 "display": {
                   "cssClasses": "uk-disabled",
                   "hasBorder": false,
-                  "order": 7,
+                  "order": 8,
                   "placement": null,
                   "style": null,
                   "visible": true
@@ -534,7 +581,7 @@
                 "display": {
                   "cssClasses": null,
                   "hasBorder": false,
-                  "order": 8,
+                  "order": 9,
                   "placement": null,
                   "style": null,
                   "visible": true
@@ -581,7 +628,7 @@
                 "display": {
                   "cssClasses": null,
                   "hasBorder": false,
-                  "order": 9,
+                  "order": 10,
                   "placement": null,
                   "style": null,
                   "visible": true
@@ -628,7 +675,7 @@
                 "display": {
                   "cssClasses": null,
                   "hasBorder": false,
-                  "order": 10,
+                  "order": 11,
                   "placement": null,
                   "style": null,
                   "visible": true

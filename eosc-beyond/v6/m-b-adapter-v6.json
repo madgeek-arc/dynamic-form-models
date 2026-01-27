@@ -609,51 +609,153 @@
           "subSections": null,
           "fields": [
             {
-              "id": "ifGuideline",
-              "name": "ifGuideline",
+              "id": "linkedResource",
+              "name": "linkedResource",
               "label": {
+                "text": "Linked Resource",
                 "cssClasses": null,
-                "showLess": false,
                 "style": null,
-                "text": "IF guideline"
+                "showLess": false
               },
               "kind": null,
               "typeInfo": {
-                "multiplicity": false,
-                "prefill": null,
-                "type": "vocabulary",
+                "type": "composite",
                 "values": null,
-                "vocabulary": "EOSC_IF_GUIDELINE"
+                "vocabulary": null,
+                "multiplicity": false,
+                "prefill": null
               },
               "deprecated": false,
               "form": {
-                "affects": null,
                 "dependsOn": null,
+                "affects": null,
                 "description": {
+                  "text": "Service or Guideline id linked with the Adapter.",
                   "cssClasses": null,
-                  "showLess": false,
                   "style": null,
-                  "text": "EOSC Guideline ID"
+                  "showLess": false
                 },
-                "display": {
-                  "cssClasses": null,
-                  "hasBorder": false,
-                  "order": 1,
-                  "placement": null,
-                  "style": null,
-                  "visible": true
-                },
-                "immutable": true,
-                "mandatory": true,
-                "placeholder": null,
                 "suggestion": {
+                  "text": null,
                   "cssClasses": null,
-                  "showLess": false,
                   "style": null,
-                  "text": null
+                  "showLess": false
+                },
+                "placeholder": null,
+                "mandatory": true,
+                "immutable": true,
+                "display": {
+                  "placement": null,
+                  "order": 1,
+                  "visible": true,
+                  "hasBorder": true,
+                  "cssClasses": null,
+                  "style": null
                 }
               },
-              "subFields": []
+              "subFields": [
+                {
+                  "id": "type",
+                  "name": "type",
+                  "label": {
+                    "cssClasses": null,
+                    "showLess": false,
+                    "style": null,
+                    "text": "Type"
+                  },
+                  "kind": null,
+                  "typeInfo": {
+                    "multiplicity": false,
+                    "prefill": null,
+                    "type": "vocabulary",
+                    "values": [
+                      "Guideline",
+                      "Service"
+                    ],
+                    "vocabulary": null
+                  },
+                  "deprecated": false,
+                  "form": {
+                    "affects": null,
+                    "dependsOn": null,
+                    "description": {
+                      "cssClasses": null,
+                      "showLess": false,
+                      "style": null,
+                      "text": null
+                    },
+                    "display": {
+                      "cssClasses": null,
+                      "hasBorder": false,
+                      "order": 1,
+                      "placement": null,
+                      "style": null,
+                      "visible": true
+                    },
+                    "immutable": true,
+                    "mandatory": true,
+                    "placeholder": null,
+                    "suggestion": {
+                      "cssClasses": null,
+                      "showLess": false,
+                      "style": null,
+                      "text": null
+                    }
+                  },
+                  "subFields": []
+                },
+                {
+                  "id": "linkedResourceId",
+                  "name": "id",
+                  "label": {
+                    "cssClasses": null,
+                    "showLess": false,
+                    "style": null,
+                    "text": "Linked Resource Id"
+                  },
+                  "kind": null,
+                  "typeInfo": {
+                    "multiplicity": false,
+                    "prefill": null,
+                    "type": "vocabulary",
+                    "values": null,
+                    "vocabulary": "LINKED_RESOURCE_VOCS_UNIFIED"
+                  },
+                  "deprecated": false,
+                  "form": {
+                    "affects": null,
+                    "dependsOn": {
+                      "id": "type",
+                      "name": "type",
+                      "value": null
+                    },
+                    "description": {
+                      "cssClasses": null,
+                      "showLess": false,
+                      "style": null,
+                      "text": null
+                    },
+                    "display": {
+                      "cssClasses": null,
+                      "hasBorder": false,
+                      "order": 2,
+                      "placement": null,
+                      "style": null,
+                      "visible": true
+                    },
+                    "immutable": true,
+                    "mandatory": true,
+                    "placeholder": null,
+                    "suggestion": {
+                      "cssClasses": null,
+                      "showLess": false,
+                      "style": null,
+                      "text": null
+                    }
+                  },
+                  "subFields": []
+                }
+              ]
             },
             {
               "id": "documentation",

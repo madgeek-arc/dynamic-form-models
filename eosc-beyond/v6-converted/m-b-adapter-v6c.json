@@ -386,7 +386,7 @@
               "accessPath": null,
               "kind": null,
               "typeInfo": {
-                "vocabulary": "NODE",
+                "vocabulary": null,
                 "type": "vocabulary",
                 "defaultValue": null,
                 "values": null,
@@ -620,7 +620,7 @@
               "accessPath": null,
               "kind": null,
               "typeInfo": {
-                "vocabulary": "PROVIDERS_VOC",
+                "vocabulary": null,
                 "type": "vocabulary",
                 "defaultValue": null,
                 "values": null,
@@ -679,7 +679,7 @@
               "accessPath": null,
               "kind": null,
               "typeInfo": {
-                "vocabulary": "PROVIDERS_VOC",
+                "vocabulary": null,
                 "type": "vocabulary",
                 "defaultValue": null,
                 "values": null,
@@ -923,7 +923,7 @@
                   "accessPath": null,
                   "kind": null,
                   "typeInfo": {
-                    "vocabulary": "LINKED_RESOURCE_VOCS_UNIFIED",
+                    "vocabulary": null,
                     "type": "vocabulary",
                     "defaultValue": null,
                     "values": null,
@@ -1575,7 +1575,7 @@
                   "accessPath": null,
                   "kind": null,
                   "typeInfo": {
-                    "vocabulary": "CREDIT",
+                    "vocabulary": null,
                     "type": "vocabulary",
                     "defaultValue": null,
                     "values": null,

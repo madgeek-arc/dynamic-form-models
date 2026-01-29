@@ -9,7 +9,7 @@
   "resourceType": "service",
   "creationDate": "2026-01-27T16:31:20.933+00:00",
   "createdBy": null,
-  "modificationDate": "2026-01-27T16:31:20.933+00:00",
+  "modificationDate": "2026-01-28T13:34:36.116+00:00",
   "modifiedBy": null,
   "sections": [
     {
@@ -386,7 +386,7 @@
               "accessPath": null,
               "kind": null,
               "typeInfo": {
-                "vocabulary": "NODE",
+                "vocabulary": null,
                 "type": "vocabulary",
                 "defaultValue": null,
                 "values": null,
@@ -620,8 +620,8 @@
               "accessPath": null,
               "kind": null,
               "typeInfo": {
-                "vocabulary": "PROVIDERS_VOC",
-                "type": "vocabulary",
+                "vocabulary": null,
+                "type": "string",
                 "defaultValue": null,
                 "values": null,
                 "properties": {
@@ -679,7 +679,7 @@
               "accessPath": null,
               "kind": null,
               "typeInfo": {
-                "vocabulary": "PROVIDERS_VOC",
+                "vocabulary": null,
                 "type": "vocabulary",
                 "defaultValue": null,
                 "values": null,
@@ -916,7 +916,7 @@
                   "accessPath": null,
                   "kind": null,
                   "typeInfo": {
-                    "vocabulary": "SCIENTIFIC_DOMAIN",
+                    "vocabulary": null,
                     "type": "vocabulary",
                     "defaultValue": null,
                     "values": null,
@@ -975,7 +975,7 @@
                   "accessPath": null,
                   "kind": null,
                   "typeInfo": {
-                    "vocabulary": "SCIENTIFIC_SUBDOMAIN",
+                    "vocabulary": null,
                     "type": "vocabulary",
                     "defaultValue": null,
                     "values": null,
@@ -1094,7 +1094,7 @@
                   "accessPath": null,
                   "kind": null,
                   "typeInfo": {
-                    "vocabulary": "CATEGORY",
+                    "vocabulary": null,
                     "type": "vocabulary",
                     "defaultValue": null,
                     "values": null,
@@ -1153,7 +1153,7 @@
                   "accessPath": null,
                   "kind": null,
                   "typeInfo": {
-                    "vocabulary": "SUBCATEGORY",
+                    "vocabulary": null,
                     "type": "vocabulary",
                     "defaultValue": null,
                     "values": null,
@@ -1276,7 +1276,7 @@
               "accessPath": null,
               "kind": null,
               "typeInfo": {
-                "vocabulary": "DS_JURISDICTION",
+                "vocabulary": null,
                 "type": "vocabulary",
                 "defaultValue": null,
                 "values": null,
@@ -1345,7 +1345,7 @@
               "accessPath": null,
               "kind": null,
               "typeInfo": {
-                "vocabulary": "TRL",
+                "vocabulary": null,
                 "type": "vocabulary",
                 "defaultValue": null,
                 "values": null,
@@ -1585,7 +1585,7 @@
               "accessPath": null,
               "kind": null,
               "typeInfo": {
-                "vocabulary": "ORDER_TYPE",
+                "vocabulary": null,
                 "type": "vocabulary",
                 "defaultValue": null,
                 "values": null,
@@ -1823,7 +1823,7 @@
                   "accessPath": null,
                   "kind": null,
                   "typeInfo": {
-                    "vocabulary": "CREDIT",
+                    "vocabulary": null,
                     "type": "vocabulary",
                     "defaultValue": null,
                     "values": null,

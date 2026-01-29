@@ -497,7 +497,7 @@
                       "accessPath": null,
                       "kind": null,
                       "typeInfo": {
-                        "vocabulary": "serviceTypesVoc",
+                        "vocabulary": null,
                         "type": "vocabulary",
                         "defaultValue": null,
                         "values": null,

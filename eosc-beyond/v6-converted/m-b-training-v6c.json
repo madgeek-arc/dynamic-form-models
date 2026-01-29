@@ -386,7 +386,7 @@
               "accessPath": null,
               "kind": null,
               "typeInfo": {
-                "vocabulary": "NODE",
+                "vocabulary": null,
                 "type": "vocabulary",
                 "defaultValue": null,
                 "values": null,
@@ -620,7 +620,7 @@
               "accessPath": null,
               "kind": null,
               "typeInfo": {
-                "vocabulary": "PROVIDERS_VOC",
+                "vocabulary": null,
                 "type": "vocabulary",
                 "defaultValue": null,
                 "values": null,
@@ -679,7 +679,7 @@
               "accessPath": null,
               "kind": null,
               "typeInfo": {
-                "vocabulary": "RESOURCES_VOC",
+                "vocabulary": null,
                 "type": "vocabulary",
                 "defaultValue": null,
                 "values": null,
@@ -911,7 +911,7 @@
               "accessPath": null,
               "kind": null,
               "typeInfo": {
-                "vocabulary": "TR_ACCESS_RIGHT",
+                "vocabulary": null,
                 "type": "vocabulary",
                 "defaultValue": null,
                 "values": null,
@@ -1042,7 +1042,7 @@
               "accessPath": null,
               "kind": null,
               "typeInfo": {
-                "vocabulary": "TARGET_USER",
+                "vocabulary": null,
                 "type": "vocabulary",
                 "defaultValue": null,
                 "values": null,
@@ -1101,7 +1101,7 @@
               "accessPath": null,
               "kind": null,
               "typeInfo": {
-                "vocabulary": "TR_DCMI_TYPE",
+                "vocabulary": null,
                 "type": "vocabulary",
                 "defaultValue": null,
                 "values": null,
@@ -1218,7 +1218,7 @@
               "accessPath": null,
               "kind": null,
               "typeInfo": {
-                "vocabulary": "TR_EXPERTISE_LEVEL",
+                "vocabulary": null,
                 "type": "vocabulary",
                 "defaultValue": null,
                 "values": null,
@@ -1277,7 +1277,7 @@
               "accessPath": null,
               "kind": null,
               "typeInfo": {
-                "vocabulary": "TR_CONTENT_RESOURCE_TYPE",
+                "vocabulary": null,
                 "type": "vocabulary",
                 "defaultValue": null,
                 "values": null,
@@ -1336,7 +1336,7 @@
               "accessPath": null,
               "kind": null,
               "typeInfo": {
-                "vocabulary": "TR_QUALIFICATION",
+                "vocabulary": null,
                 "type": "vocabulary",
                 "defaultValue": null,
                 "values": null,
@@ -1463,7 +1463,7 @@
               "accessPath": null,
               "kind": null,
               "typeInfo": {
-                "vocabulary": "LANGUAGE",
+                "vocabulary": null,
                 "type": "vocabulary",
                 "defaultValue": null,
                 "values": null,
@@ -1586,7 +1586,7 @@
                   "accessPath": null,
                   "kind": null,
                   "typeInfo": {
-                    "vocabulary": "SCIENTIFIC_DOMAIN",
+                    "vocabulary": null,
                     "type": "vocabulary",
                     "defaultValue": null,
                     "values": null,
@@ -1645,7 +1645,7 @@
                   "accessPath": null,
                   "kind": null,
                   "typeInfo": {
-                    "vocabulary": "SCIENTIFIC_SUBDOMAIN",
+                    "vocabulary": null,
                     "type": "vocabulary",
                     "defaultValue": null,
                     "values": null,
@@ -1890,7 +1890,7 @@
                   "accessPath": null,
                   "kind": null,
                   "typeInfo": {
-                    "vocabulary": "CREDIT",
+                    "vocabulary": null,
                     "type": "vocabulary",
                     "defaultValue": null,
                     "values": null,

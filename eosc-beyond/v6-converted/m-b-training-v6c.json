@@ -14,7 +14,7 @@
   "sections": [
     {
       "id": "training",
-      "name": "training",
+      "name": "trainingResource",
       "description": null,
       "subType": null,
       "order": 0,

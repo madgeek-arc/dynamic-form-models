@@ -980,9 +980,15 @@
                     "defaultValue": null,
                     "values": null,
                     "properties": {
-                      "url": "/api/vocabulary/byType/SCIENTIFIC_SUBDOMAIN",
+                      "url": "/api/vocabulary/getChildren/parentId",
                       "idField": "id",
-                      "labelField": "name"
+                      "labelField": "name",
+                      "urlParams": [
+                        {
+                          "placeholder": "parentId",
+                          "valueFromField": "scientificDomain"
+                        }
+                      ]
                     },
                     "multiplicity": false,
                     "prefill": null

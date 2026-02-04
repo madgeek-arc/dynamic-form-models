@@ -689,11 +689,11 @@
                     "defaultValue": null,
                     "values": [
                       {
-                        "id": "Guideline",
+                        "id": "interoperability_record",
                         "label": "Guideline"
                       },
                       {
-                        "id": "Service",
+                        "id": "service",
                         "label": "Service"
                       }
                     ],
@@ -770,8 +770,8 @@
                   "deprecated": false,
                   "form": {
                     "dependsOn": {
-                      "id": "type",
-                      "name": "type",
+                      "id": "resource_type",
+                      "name": "resource_type",
                       "value": null
                     },
                     "affects": null,

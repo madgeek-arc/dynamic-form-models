@@ -980,9 +980,15 @@
                     "defaultValue": null,
                     "values": null,
                     "properties": {
-                      "url": "/api/vocabulary/byType/SCIENTIFIC_SUBDOMAIN",
+                      "url": "/api/vocabulary/getChildren/parentId",
                       "idField": "id",
-                      "labelField": "name"
+                      "labelField": "name",
+                      "urlParams": [
+                        {
+                          "placeholder": "parentId",
+                          "valueFromField": "scientificDomain"
+                        }
+                      ]
                     },
                     "multiplicity": false,
                     "prefill": null
@@ -1158,9 +1164,15 @@
                     "defaultValue": null,
                     "values": null,
                     "properties": {
-                      "url": "/api/vocabulary/byType/SUBCATEGORY",
+                      "url": "/api/vocabulary/getChildren/parentId",
                       "idField": "id",
-                      "labelField": "name"
+                      "labelField": "name",
+                      "urlParams": [
+                        {
+                          "placeholder": "parentId",
+                          "valueFromField": "category"
+                        }
+                      ]
                     },
                     "multiplicity": false,
                     "prefill": null

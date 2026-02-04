@@ -1650,7 +1650,7 @@
                     "defaultValue": null,
                     "values": null,
                     "properties": {
-                      "url": "/api/vocabulary/getChildren/parentId",
+                      "url": "/api/vocabulary/types/Scientific%20subdomain?parent_id=parentId",
                       "idField": "id",
                       "labelField": "name",
                       "urlParams": [

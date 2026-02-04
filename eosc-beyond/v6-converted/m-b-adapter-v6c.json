@@ -1740,7 +1740,7 @@
                   ]
                 },
                 {
-                  "id": "email",
+                  "id": "creatorEmail",
                   "name": "email",
                   "parentId": "creators",
                   "parent": "creators",
@@ -1922,7 +1922,7 @@
                 },
                 {
                   "id": "userName",
-                  "name": "userName",
+                  "name": "name",
                   "parentId": "users",
                   "parent": "users",
                   "label": {
@@ -2037,8 +2037,8 @@
                   "subFields": []
                 },
                 {
-                  "id": "userEmail",
-                  "name": "userEmail",
+                  "id": "email",
+                  "name": "email",
                   "parentId": "users",
                   "parent": "users",
                   "label": {

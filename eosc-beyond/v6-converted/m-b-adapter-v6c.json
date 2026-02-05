@@ -991,12 +991,13 @@
               "kind": null,
               "typeInfo": {
                 "vocabulary": null,
-                "type": "string",
+                "type": "vocabulary",
                 "defaultValue": null,
                 "values": null,
                 "properties": {
-                  "minLength": null,
-                  "maxLength": null
+                  "url": "/api/vocabulary/byType/ADAPTER_PROGRAMMING_LANGUAGE",
+                  "idField": "id",
+                  "labelField": "name"
                 },
                 "multiplicity": false,
                 "prefill": null
@@ -1049,12 +1050,13 @@
               "kind": null,
               "typeInfo": {
                 "vocabulary": null,
-                "type": "string",
+                "type": "vocabulary",
                 "defaultValue": null,
                 "values": null,
                 "properties": {
-                  "minLength": null,
-                  "maxLength": null
+                  "url": "/api/vocabulary/byType/ADAPTER_LICENSE",
+                  "idField": "id",
+                  "labelField": "name"
                 },
                 "multiplicity": false,
                 "prefill": null

@@ -753,7 +753,7 @@
                     "defaultValue": null,
                     "values": null,
                     "properties": {
-                      "url": "/api/reference/idToNameMap?resourceType=rt_value",
+                      "url": "/api/rt_value/list",
                       "idField": "id",
                       "labelField": "name",
                       "urlParams": [

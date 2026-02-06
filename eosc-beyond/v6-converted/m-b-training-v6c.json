@@ -625,7 +625,7 @@
                 "defaultValue": null,
                 "values": null,
                 "properties": {
-                  "url": "/api/reference/idToNameMap?resourceType=provider",
+                  "url": "/api/provider/list",
                   "idField": "id",
                   "labelField": "name"
                 },
@@ -684,7 +684,7 @@
                 "defaultValue": null,
                 "values": null,
                 "properties": {
-                  "url": "/api/reference/idToNameMap?resourceType=service",
+                  "url": "/api/service/list",
                   "idField": "id",
                   "labelField": "name"
                 },

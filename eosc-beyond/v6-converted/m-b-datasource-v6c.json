@@ -2488,7 +2488,7 @@
                     "defaultValue": null,
                     "values": null,
                     "properties": {
-                      "url": "/api/vocabulary/byType/DS_RESEARCH_PRODUCT_TYPE",
+                      "url": "/api/vocabulary/byType/DS_RESEARCH_ENTITY_TYPE",
                       "idField": "id",
                       "labelField": "name"
                     },

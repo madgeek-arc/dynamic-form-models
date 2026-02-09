@@ -607,12 +607,12 @@
               "subFields": []
             },
             {
-              "id": "owner",
-              "name": "owner",
+              "id": "resourceOwner",
+              "name": "resourceOwner",
               "parentId": null,
               "parent": null,
               "label": {
-                "text": "Owner",
+                "text": "Resource Owner",
                 "cssClasses": null,
                 "style": null,
                 "showLess": false

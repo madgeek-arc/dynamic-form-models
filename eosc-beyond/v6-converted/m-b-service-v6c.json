@@ -162,7 +162,7 @@
                 "defaultValue": null,
                 "values": null,
                 "properties": {
-                  "strictValidation": false
+                  "strictValidation": true
                 },
                 "multiplicity": true,
                 "prefill": null
@@ -743,7 +743,7 @@
                 "defaultValue": null,
                 "values": null,
                 "properties": {
-                  "strictValidation": false
+                  "strictValidation": true
                 },
                 "multiplicity": false,
                 "prefill": null
@@ -800,7 +800,7 @@
                 "defaultValue": null,
                 "values": null,
                 "properties": {
-                  "strictValidation": false
+                  "strictValidation": true
                 },
                 "multiplicity": false,
                 "prefill": null
@@ -1421,7 +1421,7 @@
                 "defaultValue": null,
                 "values": null,
                 "properties": {
-                  "strictValidation": false
+                  "strictValidation": true
                 },
                 "multiplicity": false,
                 "prefill": null
@@ -1478,7 +1478,7 @@
                 "defaultValue": null,
                 "values": null,
                 "properties": {
-                  "strictValidation": false
+                  "strictValidation": true
                 },
                 "multiplicity": false,
                 "prefill": null
@@ -1535,7 +1535,7 @@
                 "defaultValue": null,
                 "values": null,
                 "properties": {
-                  "strictValidation": false
+                  "strictValidation": true
                 },
                 "multiplicity": false,
                 "prefill": null
@@ -1661,7 +1661,7 @@
                 "defaultValue": null,
                 "values": null,
                 "properties": {
-                  "strictValidation": false
+                  "strictValidation": true
                 },
                 "multiplicity": false,
                 "prefill": null

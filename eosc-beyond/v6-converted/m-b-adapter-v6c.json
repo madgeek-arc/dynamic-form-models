@@ -1898,7 +1898,7 @@
                 "affects": null,
                 "group": null,
                 "description": {
-                  "text": "QA: software quality scores/badges",
+                  "text": "Software quality scores/badges",
                   "cssClasses": null,
                   "style": null,
                   "showLess": false

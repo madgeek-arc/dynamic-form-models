@@ -1860,6 +1860,243 @@
               ]
             }
           ]
+        },
+        {
+          "id": "Notes",
+          "name": "Notes",
+          "description": null,
+          "subType": null,
+          "order": 4,
+          "subSections": null,
+          "fields": [
+            {
+              "id": "qa",
+              "name": "qa",
+              "parentId": null,
+              "parent": null,
+              "label": {
+                "text": "QA",
+                "cssClasses": null,
+                "style": null,
+                "showLess": false
+              },
+              "accessPath": null,
+              "kind": null,
+              "typeInfo": {
+                "vocabulary": null,
+                "type": "composite",
+                "defaultValue": null,
+                "values": null,
+                "properties": {},
+                "multiplicity": true,
+                "prefill": null
+              },
+              "includedInSnippet": false,
+              "deprecated": false,
+              "form": {
+                "dependsOn": null,
+                "affects": null,
+                "group": null,
+                "description": {
+                  "text": "QA: software quality scores/badges",
+                  "cssClasses": null,
+                  "style": null,
+                  "showLess": false
+                },
+                "suggestion": {
+                  "text": null,
+                  "cssClasses": null,
+                  "style": null,
+                  "showLess": false
+                },
+                "placeholder": null,
+                "mandatory": false,
+                "immutable": true,
+                "display": {
+                  "placement": null,
+                  "order": 1,
+                  "visible": true,
+                  "hasBorder": true,
+                  "cssClasses": null,
+                  "style": null
+                }
+              },
+              "display": null,
+              "subFields": [
+                {
+                  "id": "documentation",
+                  "name": "documentation",
+                  "parentId": "qa",
+                  "parent": "qa",
+                  "label": {
+                    "text": "Documentation",
+                    "cssClasses": null,
+                    "style": null,
+                    "showLess": false
+                  },
+                  "accessPath": null,
+                  "kind": null,
+                  "typeInfo": {
+                    "vocabulary": null,
+                    "type": "number",
+                    "defaultValue": null,
+                    "values": null,
+                    "properties": {
+                      "decimals": 0
+                    },
+                    "multiplicity": false,
+                    "prefill": null
+                  },
+                  "includedInSnippet": false,
+                  "deprecated": false,
+                  "form": {
+                    "dependsOn": null,
+                    "affects": null,
+                    "group": null,
+                    "description": {
+                      "text": "Documentation badge/score",
+                      "cssClasses": null,
+                      "style": null,
+                      "showLess": false
+                    },
+                    "suggestion": {
+                      "text": null,
+                      "cssClasses": null,
+                      "style": null,
+                      "showLess": false
+                    },
+                    "placeholder": null,
+                    "mandatory": false,
+                    "immutable": true,
+                    "display": {
+                      "placement": null,
+                      "order": 1,
+                      "visible": true,
+                      "hasBorder": false,
+                      "cssClasses": null,
+                      "style": null
+                    }
+                  },
+                  "display": null,
+                  "subFields": []
+                },
+                {
+                  "id": "license",
+                  "name": "license",
+                  "parentId": "qa",
+                  "parent": "qa",
+                  "label": {
+                    "text": "License",
+                    "cssClasses": null,
+                    "style": null,
+                    "showLess": false
+                  },
+                  "accessPath": null,
+                  "kind": null,
+                  "typeInfo": {
+                    "vocabulary": null,
+                    "type": "number",
+                    "defaultValue": null,
+                    "values": null,
+                    "properties": {
+                      "decimals": 0
+                    },
+                    "multiplicity": false,
+                    "prefill": null
+                  },
+                  "includedInSnippet": false,
+                  "deprecated": false,
+                  "form": {
+                    "dependsOn": null,
+                    "affects": null,
+                    "group": null,
+                    "description": {
+                      "text": "License badge",
+                      "cssClasses": null,
+                      "style": null,
+                      "showLess": false
+                    },
+                    "suggestion": {
+                      "text": null,
+                      "cssClasses": null,
+                      "style": null,
+                      "showLess": false
+                    },
+                    "placeholder": null,
+                    "mandatory": false,
+                    "immutable": true,
+                    "display": {
+                      "placement": null,
+                      "order": 2,
+                      "visible": true,
+                      "hasBorder": false,
+                      "cssClasses": null,
+                      "style": null
+                    }
+                  },
+                  "display": null,
+                  "subFields": []
+                },
+                {
+                  "id": "testing",
+                  "name": "testing",
+                  "parentId": "qa",
+                  "parent": "qa",
+                  "label": {
+                    "text": "Testing",
+                    "cssClasses": null,
+                    "style": null,
+                    "showLess": false
+                  },
+                  "accessPath": null,
+                  "kind": null,
+                  "typeInfo": {
+                    "vocabulary": null,
+                    "type": "number",
+                    "defaultValue": null,
+                    "values": null,
+                    "properties": {
+                      "decimals": 0
+                    },
+                    "multiplicity": false,
+                    "prefill": null
+                  },
+                  "includedInSnippet": false,
+                  "deprecated": false,
+                  "form": {
+                    "dependsOn": null,
+                    "affects": null,
+                    "group": null,
+                    "description": {
+                      "text": "Testing badge/score",
+                      "cssClasses": null,
+                      "style": null,
+                      "showLess": false
+                    },
+                    "suggestion": {
+                      "text": null,
+                      "cssClasses": null,
+                      "style": null,
+                      "showLess": false
+                    },
+                    "placeholder": null,
+                    "mandatory": false,
+                    "immutable": true,
+                    "display": {
+                      "placement": null,
+                      "order": 3,
+                      "visible": true,
+                      "hasBorder": false,
+                      "cssClasses": null,
+                      "style": null
+                    }
+                  },
+                  "display": null,
+                  "subFields": []
+                }
+              ]
+            }
+          ]
         }
       ],
       "fields": null

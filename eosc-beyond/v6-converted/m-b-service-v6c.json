@@ -2226,66 +2226,66 @@
                   "subFields": []
                 }
               ]
+            },
+            {
+              "id": "publicContacts",
+              "name": "publicContacts",
+              "parentId": null,
+              "parent": null,
+              "label": {
+                "text": "Public Contacts",
+                "cssClasses": null,
+                "style": null,
+                "showLess": false
+              },
+              "accessPath": null,
+              "kind": null,
+              "typeInfo": {
+                "vocabulary": null,
+                "type": "email",
+                "defaultValue": null,
+                "values": null,
+                "properties": {
+                  "minLength": null,
+                  "maxLength": null
+                },
+                "multiplicity": true,
+                "prefill": null
+              },
+              "includedInSnippet": false,
+              "deprecated": false,
+              "form": {
+                "dependsOn": null,
+                "affects": null,
+                "group": null,
+                "description": {
+                  "text": "List of public contact emails.",
+                  "cssClasses": null,
+                  "style": null,
+                  "showLess": false
+                },
+                "suggestion": {
+                  "text": null,
+                  "cssClasses": null,
+                  "style": null,
+                  "showLess": false
+                },
+                "placeholder": null,
+                "mandatory": true,
+                "immutable": true,
+                "display": {
+                  "placement": null,
+                  "order": 2,
+                  "visible": true,
+                  "hasBorder": false,
+                  "cssClasses": null,
+                  "style": null
+                }
+              },
+              "display": null,
+              "subFields": []
             }
           ]
-        },
-        {
-          "id": "publicContacts",
-          "name": "publicContacts",
-          "parentId": null,
-          "parent": null,
-          "label": {
-            "text": "Public Contacts",
-            "cssClasses": null,
-            "style": null,
-            "showLess": false
-          },
-          "accessPath": null,
-          "kind": null,
-          "typeInfo": {
-            "vocabulary": null,
-            "type": "email",
-            "defaultValue": null,
-            "values": null,
-            "properties": {
-              "minLength": null,
-              "maxLength": null
-            },
-            "multiplicity": true,
-            "prefill": null
-          },
-          "includedInSnippet": false,
-          "deprecated": false,
-          "form": {
-            "dependsOn": null,
-            "affects": null,
-            "group": null,
-            "description": {
-              "text": "List of public contact emails.",
-              "cssClasses": null,
-              "style": null,
-              "showLess": false
-            },
-            "suggestion": {
-              "text": null,
-              "cssClasses": null,
-              "style": null,
-              "showLess": false
-            },
-            "placeholder": null,
-            "mandatory": true,
-            "immutable": true,
-            "display": {
-              "placement": null,
-              "order": 2,
-              "visible": true,
-              "hasBorder": false,
-              "cssClasses": null,
-              "style": null
-            }
-          },
-          "display": null,
-          "subFields": []
         }
       ],
       "fields": null

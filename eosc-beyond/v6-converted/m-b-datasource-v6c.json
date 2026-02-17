@@ -1702,20 +1702,20 @@
           ]
         },
         {
-          "id": "Contact",
-          "name": "Contact",
+          "id": "Creators",
+          "name": "Creators",
           "description": null,
           "subType": null,
           "order": 5,
           "subSections": null,
           "fields": [
             {
-              "id": "contacts",
-              "name": "contacts",
+              "id": "creators",
+              "name": "creators",
               "parentId": null,
               "parent": null,
               "label": {
-                "text": "Contacts",
+                "text": "Creators",
                 "cssClasses": null,
                 "style": null,
                 "showLess": false
@@ -1764,12 +1764,12 @@
               "display": null,
               "subFields": [
                 {
-                  "id": "contactName",
-                  "name": "contactName",
-                  "parentId": "contacts",
-                  "parent": "contacts",
+                  "id": "creatorName",
+                  "name": "creatorName",
+                  "parentId": "creators",
+                  "parent": "creators",
                   "label": {
-                    "text": "Contact Name",
+                    "text": "Creator Name",
                     "cssClasses": null,
                     "style": null,
                     "showLess": false
@@ -1795,7 +1795,7 @@
                     "affects": null,
                     "group": null,
                     "description": {
-                      "text": "The full name of the contact.",
+                      "text": "The full name of the creator.",
                       "cssClasses": null,
                       "style": null,
                       "showLess": false
@@ -1822,12 +1822,12 @@
                   "subFields": []
                 },
                 {
-                  "id": "contactRole",
-                  "name": "contactRole",
-                  "parentId": "contacts",
-                  "parent": "contacts",
+                  "id": "creatorRole",
+                  "name": "creatorRole",
+                  "parentId": "creators",
+                  "parent": "creators",
                   "label": {
-                    "text": "Contact Role",
+                    "text": "Creator Role",
                     "cssClasses": null,
                     "style": null,
                     "showLess": false
@@ -1881,12 +1881,12 @@
                   "subFields": []
                 },
                 {
-                  "id": "contactPIDSchema",
-                  "name": "contactPIDSchema",
-                  "parentId": "contacts",
-                  "parent": "contacts",
+                  "id": "creatorPIDSchema",
+                  "name": "creatorPIDSchema",
+                  "parentId": "creators",
+                  "parent": "creators",
                   "label": {
-                    "text": "Contact PID Schema",
+                    "text": "Creator PID Schema",
                     "cssClasses": null,
                     "style": null,
                     "showLess": false
@@ -1939,12 +1939,12 @@
                   "subFields": []
                 },
                 {
-                  "id": "contactPID",
-                  "name": "contactPID",
-                  "parentId": "contacts",
-                  "parent": "contacts",
+                  "id": "creatorPID",
+                  "name": "creatorPID",
+                  "parentId": "creators",
+                  "parent": "creators",
                   "label": {
-                    "text": "Contact PID",
+                    "text": "Creator PID",
                     "cssClasses": null,
                     "style": null,
                     "showLess": false
@@ -1999,8 +1999,8 @@
                 {
                   "id": "affiliations",
                   "name": "affiliations",
-                  "parentId": "contacts",
-                  "parent": "contacts",
+                  "parentId": "creators",
+                  "parent": "creators",
                   "label": {
                     "text": "Affiliations",
                     "cssClasses": null,
@@ -2082,7 +2082,7 @@
                         "affects": null,
                         "group": null,
                         "description": {
-                          "text": "The organizational or institutional affiliation of the contact.",
+                          "text": "The organizational or institutional affiliation of the creator.",
                           "cssClasses": null,
                           "style": null,
                           "showLess": false
@@ -2140,7 +2140,7 @@
                         "affects": null,
                         "group": null,
                         "description": {
-                          "text": "Uniquely identifies the organizational affiliation of the contact.",
+                          "text": "Uniquely identifies the organizational affiliation of the creator.",
                           "cssClasses": null,
                           "style": null,
                           "showLess": false
@@ -2171,8 +2171,8 @@
                 {
                   "id": "email",
                   "name": "email",
-                  "parentId": "contacts",
-                  "parent": "contacts",
+                  "parentId": "creators",
+                  "parent": "creators",
                   "label": {
                     "text": "Email",
                     "cssClasses": null,
@@ -2199,7 +2199,7 @@
                     "affects": null,
                     "group": null,
                     "description": {
-                      "text": "Email of the contact.",
+                      "text": "Email of the creator.",
                       "cssClasses": null,
                       "style": null,
                       "showLess": false
@@ -2228,6 +2228,64 @@
               ]
             }
           ]
+        },
+        {
+          "id": "publicContacts",
+          "name": "publicContacts",
+          "parentId": null,
+          "parent": null,
+          "label": {
+            "text": "Public Contacts",
+            "cssClasses": null,
+            "style": null,
+            "showLess": false
+          },
+          "accessPath": null,
+          "kind": null,
+          "typeInfo": {
+            "vocabulary": null,
+            "type": "email",
+            "defaultValue": null,
+            "values": null,
+            "properties": {
+              "minLength": null,
+              "maxLength": null
+            },
+            "multiplicity": true,
+            "prefill": null
+          },
+          "includedInSnippet": false,
+          "deprecated": false,
+          "form": {
+            "dependsOn": null,
+            "affects": null,
+            "group": null,
+            "description": {
+              "text": "List of public contact emails.",
+              "cssClasses": null,
+              "style": null,
+              "showLess": false
+            },
+            "suggestion": {
+              "text": null,
+              "cssClasses": null,
+              "style": null,
+              "showLess": false
+            },
+            "placeholder": null,
+            "mandatory": true,
+            "immutable": true,
+            "display": {
+              "placement": null,
+              "order": 2,
+              "visible": true,
+              "hasBorder": false,
+              "cssClasses": null,
+              "style": null
+            }
+          },
+          "display": null,
+          "subFields": []
         },
         {
           "id": "Policies",

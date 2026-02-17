@@ -1924,8 +1924,8 @@
               "display": null,
               "subFields": [
                 {
-                  "id": "documentation",
-                  "name": "documentation",
+                  "id": "qaDocumentation",
+                  "name": "qaDocumentation",
                   "parentId": "qa",
                   "parent": "qa",
                   "label": {
@@ -1981,8 +1981,8 @@
                   "subFields": []
                 },
                 {
-                  "id": "license",
-                  "name": "license",
+                  "id": "qaLicense",
+                  "name": "qaLicense",
                   "parentId": "qa",
                   "parent": "qa",
                   "label": {
@@ -2038,8 +2038,8 @@
                   "subFields": []
                 },
                 {
-                  "id": "testing",
-                  "name": "testing",
+                  "id": "qaTesting",
+                  "name": "qaTesting",
                   "parentId": "qa",
                   "parent": "qa",
                   "label": {

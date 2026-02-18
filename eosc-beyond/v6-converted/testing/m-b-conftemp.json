@@ -13,8 +13,8 @@
   "modifiedBy": null,
   "sections": [
     {
-      "id": "ConfigurationTemplate",
-      "name": "ConfigurationTemplate",
+      "id": "configurationTemplate",
+      "name": "configurationTemplate",
       "description": null,
       "subType": null,
       "order": 0,

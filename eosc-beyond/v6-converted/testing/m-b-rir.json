@@ -13,8 +13,8 @@
   "modifiedBy": null,
   "sections": [
     {
-      "id": "ResourceInteroperabilityRecord",
-      "name": "ResourceInteroperabilityRecord",
+      "id": "resourceInteroperabilityRecord",
+      "name": "resourceInteroperabilityRecord",
       "description": null,
       "subType": null,
       "order": 0,

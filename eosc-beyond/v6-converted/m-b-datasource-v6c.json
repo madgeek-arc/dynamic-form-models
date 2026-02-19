@@ -391,7 +391,7 @@
                 "defaultValue": null,
                 "values": null,
                 "properties": {
-                  "url": "/api/vocabulary/byType/NODE",
+                  "url": "/api/vocabulary/types/Node",
                   "idField": "id",
                   "labelField": "name"
                 },
@@ -867,7 +867,7 @@
                 "defaultValue": null,
                 "values": null,
                 "properties": {
-                  "url": "/api/vocabulary/byType/DS_JURISDICTION",
+                  "url": "/api/vocabulary/types/Jurisdiction",
                   "idField": "id",
                   "labelField": "name"
                 },
@@ -980,7 +980,7 @@
                     "defaultValue": null,
                     "values": null,
                     "properties": {
-                      "url": "/api/vocabulary/byType/SCIENTIFIC_DOMAIN",
+                      "url": "/api/vocabulary/types/Scientific%20domain",
                       "idField": "id",
                       "labelField": "name"
                     },
@@ -1164,7 +1164,7 @@
                     "defaultValue": null,
                     "values": null,
                     "properties": {
-                      "url": "/api/vocabulary/byType/CATEGORY",
+                      "url": "/api/vocabulary/types/Category",
                       "idField": "id",
                       "labelField": "name"
                     },
@@ -1362,7 +1362,7 @@
                 "defaultValue": null,
                 "values": null,
                 "properties": {
-                  "url": "/api/vocabulary/byType/TRL",
+                  "url": "/api/vocabulary/types/Technology%20readiness%20level",
                   "idField": "id",
                   "labelField": "name"
                 },
@@ -1602,7 +1602,7 @@
                 "defaultValue": null,
                 "values": null,
                 "properties": {
-                  "url": "/api/vocabulary/byType/ORDER_TYPE",
+                  "url": "/api/vocabulary/types/Order%20type",
                   "idField": "id",
                   "labelField": "name"
                 },
@@ -1840,7 +1840,7 @@
                     "defaultValue": null,
                     "values": null,
                     "properties": {
-                      "url": "/api/vocabulary/byType/CREDIT",
+                      "url": "/api/vocabulary/types/Credit",
                       "idField": "id",
                       "labelField": "name"
                     },
@@ -2546,7 +2546,7 @@
                     "defaultValue": null,
                     "values": null,
                     "properties": {
-                      "url": "/api/vocabulary/byType/DS_RESEARCH_ENTITY_TYPE",
+                      "url": "/api/vocabulary/types/Research%20entity%20type",
                       "idField": "id",
                       "labelField": "name"
                     },
@@ -2605,7 +2605,7 @@
                     "defaultValue": null,
                     "values": null,
                     "properties": {
-                      "url": "/api/vocabulary/byType/DS_PERSISTENT_IDENTITY_SCHEME",
+                      "url": "/api/vocabulary/types/Persistent%20identity%20scheme",
                       "idField": "id",
                       "labelField": "name"
                     },
@@ -2676,7 +2676,7 @@
                 "defaultValue": null,
                 "values": null,
                 "properties": {
-                  "url": "/api/vocabulary/byType/DS_CLASSIFICATION",
+                  "url": "/api/vocabulary/types/Classification",
                   "idField": "id",
                   "labelField": "name"
                 },
@@ -2735,7 +2735,7 @@
                 "defaultValue": null,
                 "values": null,
                 "properties": {
-                  "url": "/api/vocabulary/byType/DS_RESEARCH_ENTITY_TYPE",
+                  "url": "/api/vocabulary/types/Research%20entity%20type",
                   "idField": "id",
                   "labelField": "name"
                 },
@@ -3039,7 +3039,7 @@
                 "defaultValue": null,
                 "values": null,
                 "properties": {
-                  "url": "/api/vocabulary/byType/DS_COAR_ACCESS_RIGHTS_1_0",
+                  "url": "/api/vocabulary/types/Coar%20access%20rights%201%200",
                   "idField": "id",
                   "labelField": "name"
                 },

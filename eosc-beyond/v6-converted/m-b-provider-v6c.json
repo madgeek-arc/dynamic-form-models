@@ -392,7 +392,7 @@
                 "defaultValue": null,
                 "values": null,
                 "properties": {
-                  "url": "/api/vocabulary/byType/NODE",
+                  "url": "/api/vocabulary/types/Node",
                   "idField": "id",
                   "labelField": "name"
                 },
@@ -508,7 +508,7 @@
                 "defaultValue": null,
                 "values": null,
                 "properties": {
-                  "url": "/api/vocabulary/byType/COUNTRY",
+                  "url": "/api/vocabulary/types/Country",
                   "idField": "id",
                   "labelField": "name"
                 },
@@ -631,7 +631,7 @@
                 "defaultValue": null,
                 "values": null,
                 "properties": {
-                  "url": "/api/vocabulary/byType/PROVIDER_LEGAL_STATUS",
+                  "url": "/api/vocabulary/types/Provider%20legal%20status",
                   "idField": "id",
                   "labelField": "name"
                 },
@@ -694,7 +694,7 @@
                 "defaultValue": null,
                 "values": null,
                 "properties": {
-                  "url": "/api/vocabulary/byType/PROVIDER_HOSTING_LEGAL_ENTITY",
+                  "url": "/api/vocabulary/types/Provider%20hosting%20legal%20entity",
                   "idField": "id",
                   "labelField": "name"
                 },

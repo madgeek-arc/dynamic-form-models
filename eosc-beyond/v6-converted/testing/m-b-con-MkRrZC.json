@@ -100,7 +100,7 @@
               "kind": null,
               "typeInfo": {
                 "vocabulary": null,
-                "type": "string",
+                "type": "vocabulary",
                 "defaultValue": null,
                 "values": null,
                 "properties": {
@@ -159,7 +159,7 @@
               "kind": null,
               "typeInfo": {
                 "vocabulary": null,
-                "type": "string",
+                "type": "vocabulary",
                 "defaultValue": null,
                 "values": null,
                 "properties": {
@@ -222,7 +222,7 @@
                 "defaultValue": null,
                 "values": null,
                 "properties": {
-                  "url": "/api/vocabulary/byType/NODE",
+                  "url": "/api/vocabulary/types/Node",
                   "idField": "id",
                   "labelField": "name"
                 },

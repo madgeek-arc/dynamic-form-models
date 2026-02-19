@@ -391,7 +391,7 @@
                 "defaultValue": null,
                 "values": null,
                 "properties": {
-                  "url": "/api/vocabulary/byType/NODE",
+                  "url": "/api/vocabulary/types/Node",
                   "idField": "id",
                   "labelField": "name"
                 },
@@ -1054,7 +1054,7 @@
                 "defaultValue": null,
                 "values": null,
                 "properties": {
-                  "url": "/api/vocabulary/byType/ADAPTER_PROGRAMMING_LANGUAGE",
+                  "url": "/api/vocabulary/types/Adapter%20programming%20language",
                   "idField": "id",
                   "labelField": "name"
                 },
@@ -1113,7 +1113,7 @@
                 "defaultValue": null,
                 "values": null,
                 "properties": {
-                  "url": "/api/vocabulary/byType/ADAPTER_LICENSE",
+                  "url": "/api/vocabulary/types/Adapter%20license",
                   "idField": "id",
                   "labelField": "name"
                 },
@@ -1472,7 +1472,7 @@
                     "defaultValue": null,
                     "values": null,
                     "properties": {
-                      "url": "/api/vocabulary/byType/CREDIT",
+                      "url": "/api/vocabulary/types/Credit",
                       "idField": "id",
                       "labelField": "name"
                     },

@@ -801,7 +801,7 @@
                 "defaultValue": null,
                 "values": null,
                 "properties": {},
-                "multiplicity": false,
+                "multiplicity": true,
                 "prefill": null
               },
               "includedInSnippet": false,
@@ -811,7 +811,7 @@
                 "affects": null,
                 "group": null,
                 "description": {
-                  "text": "A license document that applies to this resource",
+                  "text": null,
                   "cssClasses": null,
                   "style": null,
                   "showLess": false
@@ -827,7 +827,7 @@
                 "immutable": true,
                 "display": {
                   "placement": null,
-                  "order": 12,
+                  "order": 9,
                   "visible": true,
                   "hasBorder": true,
                   "cssClasses": null,

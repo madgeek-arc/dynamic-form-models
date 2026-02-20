@@ -2850,12 +2850,12 @@
           "subSections": null,
           "fields": [
             {
-              "id": "researchProductMetadataLicensing",
-              "name": "researchProductMetadataLicensing",
+              "id": "metadataLicense",
+              "name": "metadataLicense",
               "parentId": null,
               "parent": null,
               "label": {
-                "text": "Research Product Metadata Licensing",
+                "text": "Metadata License",
                 "cssClasses": null,
                 "style": null,
                 "showLess": false
@@ -2904,69 +2904,12 @@
               "display": null,
               "subFields": [
                 {
-                  "id": "researchProductMetadataLicenseURL",
-                  "name": "researchProductMetadataLicenseURL",
-                  "parentId": "researchProductMetadataLicensing",
-                  "parent": "researchProductMetadataLicensing",
+                  "id": "metadataLicenseName",
+                  "name": "metadataLicenseName",
+                  "parentId": "metadataLicense",
+                  "parent": "metadataLicense",
                   "label": {
-                    "text": "Research Product Metadata License URL",
-                    "cssClasses": null,
-                    "style": null,
-                    "showLess": false
-                  },
-                  "accessPath": null,
-                  "kind": null,
-                  "typeInfo": {
-                    "vocabulary": null,
-                    "type": "url",
-                    "defaultValue": null,
-                    "values": null,
-                    "properties": {
-                      "strictValidation": true
-                    },
-                    "multiplicity": false,
-                    "prefill": null
-                  },
-                  "includedInSnippet": false,
-                  "deprecated": false,
-                  "form": {
-                    "dependsOn": null,
-                    "affects": null,
-                    "group": null,
-                    "description": {
-                      "text": null,
-                      "cssClasses": null,
-                      "style": null,
-                      "showLess": false
-                    },
-                    "suggestion": {
-                      "text": null,
-                      "cssClasses": null,
-                      "style": null,
-                      "showLess": false
-                    },
-                    "placeholder": "use http:// or https://",
-                    "mandatory": false,
-                    "immutable": true,
-                    "display": {
-                      "placement": null,
-                      "order": 1,
-                      "visible": true,
-                      "hasBorder": false,
-                      "cssClasses": null,
-                      "style": null
-                    }
-                  },
-                  "display": null,
-                  "subFields": []
-                },
-                {
-                  "id": "researchProductMetadataLicenseName",
-                  "name": "researchProductMetadataLicenseName",
-                  "parentId": "researchProductMetadataLicensing",
-                  "parent": "researchProductMetadataLicensing",
-                  "label": {
-                    "text": "Research Product Metadata License Name",
+                    "text": "Metadata License Name",
                     "cssClasses": null,
                     "style": null,
                     "showLess": false
@@ -3017,67 +2960,65 @@
                   },
                   "display": null,
                   "subFields": []
+                },
+                {
+                  "id": "metadataLicenseURL",
+                  "name": "metadataLicenseURL",
+                  "parentId": "metadataLicense",
+                  "parent": "metadataLicense",
+                  "label": {
+                    "text": "Metadata License URL",
+                    "cssClasses": null,
+                    "style": null,
+                    "showLess": false
+                  },
+                  "accessPath": null,
+                  "kind": null,
+                  "typeInfo": {
+                    "vocabulary": null,
+                    "type": "url",
+                    "defaultValue": null,
+                    "values": null,
+                    "properties": {
+                      "strictValidation": true
+                    },
+                    "multiplicity": false,
+                    "prefill": null
+                  },
+                  "includedInSnippet": false,
+                  "deprecated": false,
+                  "form": {
+                    "dependsOn": null,
+                    "affects": null,
+                    "group": null,
+                    "description": {
+                      "text": null,
+                      "cssClasses": null,
+                      "style": null,
+                      "showLess": false
+                    },
+                    "suggestion": {
+                      "text": null,
+                      "cssClasses": null,
+                      "style": null,
+                      "showLess": false
+                    },
+                    "placeholder": "use http:// or https://",
+                    "mandatory": false,
+                    "immutable": true,
+                    "display": {
+                      "placement": null,
+                      "order": 1,
+                      "visible": true,
+                      "hasBorder": false,
+                      "cssClasses": null,
+                      "style": null
+                    }
+                  },
+                  "display": null,
+                  "subFields": []
                 }
               ]
-            },
-            {
-              "id": "researchProductMetadataAccessPolicies",
-              "name": "researchProductMetadataAccessPolicies",
-              "parentId": null,
-              "parent": null,
-              "label": {
-                "text": "Research Product Metadata Access Policy",
-                "cssClasses": null,
-                "style": null,
-                "showLess": false
-              },
-              "accessPath": null,
-              "kind": null,
-              "typeInfo": {
-                "vocabulary": null,
-                "type": "vocabulary",
-                "defaultValue": null,
-                "values": null,
-                "properties": {
-                  "url": "/api/vocabulary/types/Coar%20access%20rights%201%200",
-                  "idField": "id",
-                  "labelField": "name"
-                },
-                "multiplicity": true,
-                "prefill": null
-              },
-              "includedInSnippet": false,
-              "deprecated": false,
-              "form": {
-                "dependsOn": null,
-                "affects": null,
-                "group": null,
-                "description": {
-                  "text": null,
-                  "cssClasses": null,
-                  "style": null,
-                  "showLess": false
-                },
-                "suggestion": {
-                  "text": null,
-                  "cssClasses": null,
-                  "style": null,
-                  "showLess": false
-                },
-                "placeholder": null,
-                "mandatory": false,
-                "immutable": true,
-                "display": {
-                  "placement": null,
-                  "order": 2,
-                  "visible": true,
-                  "hasBorder": false,
-                  "cssClasses": null,
-                  "style": null
-                }
-              },
-              "display": null,
-              "subFields": []
             }
           ]
         }

@@ -908,12 +908,13 @@
                   "kind": null,
                   "typeInfo": {
                     "vocabulary": null,
-                    "type": "string",
+                    "type": "vocabulary",
                     "defaultValue": null,
                     "values": null,
                     "properties": {
-                      "minLength": null,
-                      "maxLength": null
+                      "url": "/api/vocabulary/types/Spdx%20license",
+                      "idField": "id",
+                      "labelField": "name"
                     },
                     "multiplicity": false,
                     "prefill": null
@@ -925,7 +926,7 @@
                     "affects": null,
                     "group": null,
                     "description": {
-                      "text": null,
+                      "text": "SPDX License",
                       "cssClasses": null,
                       "style": null,
                       "showLess": false

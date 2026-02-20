@@ -1228,7 +1228,7 @@
                 "defaultValue": null,
                 "values": null,
                 "properties": {
-                  "url": "/api/vocabulary/types/Adapter%20license",
+                  "url": "/api/vocabulary/types/Spdx%20license",
                   "idField": "id",
                   "labelField": "name"
                 },
@@ -1242,7 +1242,7 @@
                 "affects": null,
                 "group": null,
                 "description": {
-                  "text": "Software/Code license (eg, MIT, APache, GPL)",
+                  "text": "SPDX License",
                   "cssClasses": null,
                   "style": null,
                   "showLess": false

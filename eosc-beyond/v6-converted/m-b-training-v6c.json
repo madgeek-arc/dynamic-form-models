@@ -783,12 +783,12 @@
               "subFields": []
             },
             {
-              "id": "licenseURL",
-              "name": "licenseURL",
+              "id": "license",
+              "name": "license",
               "parentId": null,
               "parent": null,
               "label": {
-                "text": "License URL",
+                "text": "License",
                 "cssClasses": null,
                 "style": null,
                 "showLess": false
@@ -797,12 +797,10 @@
               "kind": null,
               "typeInfo": {
                 "vocabulary": null,
-                "type": "url",
+                "type": "composite",
                 "defaultValue": null,
                 "values": null,
-                "properties": {
-                  "strictValidation": true
-                },
+                "properties": {},
                 "multiplicity": false,
                 "prefill": null
               },
@@ -813,65 +811,7 @@
                 "affects": null,
                 "group": null,
                 "description": {
-                  "text": "A license document that applies to this content, typically indicated by URL.",
-                  "cssClasses": null,
-                  "style": null,
-                  "showLess": false
-                },
-                "suggestion": {
-                  "text": null,
-                  "cssClasses": null,
-                  "style": null,
-                  "showLess": false
-                },
-                "placeholder": "use http:// or https://",
-                "mandatory": true,
-                "immutable": true,
-                "display": {
-                  "placement": null,
-                  "order": 11,
-                  "visible": true,
-                  "hasBorder": false,
-                  "cssClasses": null,
-                  "style": null
-                }
-              },
-              "display": null,
-              "subFields": []
-            },
-            {
-              "id": "licenseName",
-              "name": "licenseName",
-              "parentId": null,
-              "parent": null,
-              "label": {
-                "text": "License Name",
-                "cssClasses": null,
-                "style": null,
-                "showLess": false
-              },
-              "accessPath": null,
-              "kind": null,
-              "typeInfo": {
-                "vocabulary": null,
-                "type": "string",
-                "defaultValue": null,
-                "values": null,
-                "properties": {
-                  "minLength": null,
-                  "maxLength": null
-                },
-                "multiplicity": false,
-                "prefill": null
-              },
-              "includedInSnippet": false,
-              "deprecated": false,
-              "form": {
-                "dependsOn": null,
-                "affects": null,
-                "group": null,
-                "description": {
-                  "text": null,
+                  "text": "A license document that applies to this resource",
                   "cssClasses": null,
                   "style": null,
                   "showLess": false
@@ -883,19 +823,135 @@
                   "showLess": false
                 },
                 "placeholder": null,
-                "mandatory": true,
+                "mandatory": false,
                 "immutable": true,
                 "display": {
                   "placement": null,
                   "order": 12,
                   "visible": true,
-                  "hasBorder": false,
+                  "hasBorder": true,
                   "cssClasses": null,
                   "style": null
                 }
               },
               "display": null,
-              "subFields": []
+              "subFields": [
+                {
+                  "id": "licenseURL",
+                  "name": "licenseURL",
+                  "parentId": null,
+                  "parent": null,
+                  "label": {
+                    "text": "License URL",
+                    "cssClasses": null,
+                    "style": null,
+                    "showLess": false
+                  },
+                  "accessPath": null,
+                  "kind": null,
+                  "typeInfo": {
+                    "vocabulary": null,
+                    "type": "url",
+                    "defaultValue": null,
+                    "values": null,
+                    "properties": {
+                      "strictValidation": true
+                    },
+                    "multiplicity": false,
+                    "prefill": null
+                  },
+                  "includedInSnippet": false,
+                  "deprecated": false,
+                  "form": {
+                    "dependsOn": null,
+                    "affects": null,
+                    "group": null,
+                    "description": {
+                      "text": "A license document that applies to this content, typically indicated by URL.",
+                      "cssClasses": null,
+                      "style": null,
+                      "showLess": false
+                    },
+                    "suggestion": {
+                      "text": null,
+                      "cssClasses": null,
+                      "style": null,
+                      "showLess": false
+                    },
+                    "placeholder": "use http:// or https://",
+                    "mandatory": true,
+                    "immutable": true,
+                    "display": {
+                      "placement": null,
+                      "order": 11,
+                      "visible": true,
+                      "hasBorder": false,
+                      "cssClasses": null,
+                      "style": null
+                    }
+                  },
+                  "display": null,
+                  "subFields": []
+                },
+                {
+                  "id": "licenseName",
+                  "name": "licenseName",
+                  "parentId": null,
+                  "parent": null,
+                  "label": {
+                    "text": "License Name",
+                    "cssClasses": null,
+                    "style": null,
+                    "showLess": false
+                  },
+                  "accessPath": null,
+                  "kind": null,
+                  "typeInfo": {
+                    "vocabulary": null,
+                    "type": "string",
+                    "defaultValue": null,
+                    "values": null,
+                    "properties": {
+                      "minLength": null,
+                      "maxLength": null
+                    },
+                    "multiplicity": false,
+                    "prefill": null
+                  },
+                  "includedInSnippet": false,
+                  "deprecated": false,
+                  "form": {
+                    "dependsOn": null,
+                    "affects": null,
+                    "group": null,
+                    "description": {
+                      "text": null,
+                      "cssClasses": null,
+                      "style": null,
+                      "showLess": false
+                    },
+                    "suggestion": {
+                      "text": null,
+                      "cssClasses": null,
+                      "style": null,
+                      "showLess": false
+                    },
+                    "placeholder": null,
+                    "mandatory": true,
+                    "immutable": true,
+                    "display": {
+                      "placement": null,
+                      "order": 12,
+                      "visible": true,
+                      "hasBorder": false,
+                      "cssClasses": null,
+                      "style": null
+                    }
+                  },
+                  "display": null,
+                  "subFields": []
+                }
+              ]
             },
             {
               "id": "accessRights",

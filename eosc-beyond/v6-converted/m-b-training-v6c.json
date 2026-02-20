@@ -801,7 +801,7 @@
                 "defaultValue": null,
                 "values": null,
                 "properties": {},
-                "multiplicity": true,
+                "multiplicity": false,
                 "prefill": null
               },
               "includedInSnippet": false,
@@ -811,7 +811,7 @@
                 "affects": null,
                 "group": null,
                 "description": {
-                  "text": null,
+                  "text": "A license document that applies to this resource",
                   "cssClasses": null,
                   "style": null,
                   "showLess": false
@@ -827,7 +827,7 @@
                 "immutable": true,
                 "display": {
                   "placement": null,
-                  "order": 9,
+                  "order": 11,
                   "visible": true,
                   "hasBorder": true,
                   "cssClasses": null,
@@ -883,7 +883,7 @@
                     "immutable": true,
                     "display": {
                       "placement": null,
-                      "order": 11,
+                      "order": 1,
                       "visible": true,
                       "hasBorder": false,
                       "cssClasses": null,
@@ -941,7 +941,7 @@
                     "immutable": true,
                     "display": {
                       "placement": null,
-                      "order": 12,
+                      "order": 2,
                       "visible": true,
                       "hasBorder": false,
                       "cssClasses": null,

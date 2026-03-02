@@ -204,12 +204,12 @@
               "subFields": []
             },
             {
-              "id": "node",
-              "name": "node",
+              "id": "nodePID",
+              "name": "nodePID",
               "parentId": null,
               "parent": null,
               "label": {
-                "text": "Node",
+                "text": "Node PID",
                 "cssClasses": null,
                 "style": null,
                 "showLess": false

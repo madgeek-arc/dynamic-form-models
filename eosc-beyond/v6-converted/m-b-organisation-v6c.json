@@ -2083,7 +2083,7 @@
                   "subFields": []
                 },
                 {
-                  "id": "email",
+                  "id": "userEmail",
                   "name": "email",
                   "parentId": "users",
                   "parent": "users",

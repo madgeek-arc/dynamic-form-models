@@ -666,12 +666,12 @@
               "subFields": []
             },
             {
-              "id": "resourceTypesInfo",
-              "name": "resourceTypesInfo",
+              "id": "resourceTypeInfo",
+              "name": "resourceTypeInfo",
               "parentId": null,
               "parent": null,
               "label": {
-                "text": "Resource Types Info",
+                "text": "Resource Type Info",
                 "cssClasses": null,
                 "style": null,
                 "showLess": false
@@ -684,7 +684,7 @@
                 "defaultValue": null,
                 "values": null,
                 "properties": {},
-                "multiplicity": true,
+                "multiplicity": false,
                 "prefill": null
               },
               "includedInSnippet": false,
@@ -828,7 +828,7 @@
                       "order": 2,
                       "visible": true,
                       "hasBorder": false,
-                      "cssClasses": "uk-disabled",
+                      "cssClasses": null,
                       "style": null
                     }
                   },

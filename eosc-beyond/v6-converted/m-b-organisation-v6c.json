@@ -1265,6 +1265,65 @@
                   "subFields": []
                 },
                 {
+                  "id": "mainContactRole",
+                  "name": "mainContactRole",
+                  "parentId": "mainContact",
+                  "parent": "mainContact",
+                  "label": {
+                    "text": "Main Contact Role",
+                    "cssClasses": null,
+                    "style": null,
+                    "showLess": false
+                  },
+                  "accessPath": null,
+                  "kind": null,
+                  "typeInfo": {
+                    "vocabulary": null,
+                    "type": "vocabulary",
+                    "defaultValue": null,
+                    "values": null,
+                    "properties": {
+                      "url": "/api/vocabulary/types/Credit",
+                      "idField": "id",
+                      "labelField": "name"
+                    },
+                    "multiplicity": false,
+                    "prefill": null
+                  },
+                  "includedInSnippet": false,
+                  "deprecated": false,
+                  "form": {
+                    "dependsOn": null,
+                    "affects": null,
+                    "group": null,
+                    "description": {
+                      "text": null,
+                      "cssClasses": null,
+                      "style": null,
+                      "showLess": false
+                    },
+                    "suggestion": {
+                      "text": null,
+                      "cssClasses": null,
+                      "style": null,
+                      "showLess": false
+                    },
+                    "placeholder": null,
+                    "mandatory": false,
+                    "immutable": true,
+                    "display": {
+                      "placement": null,
+                      "order": 4,
+                      "visible": true,
+                      "hasBorder": false,
+                      "cssClasses": null,
+                      "style": null
+                    }
+                  },
+                  "display": null,
+                  "subFields": []
+                },
+                {
                   "id": "PIDs",
                   "name": "PIDs",
                   "parentId": "mainContact",
@@ -1712,65 +1771,6 @@
                             "display": {
                               "placement": null,
                               "order": 2,
-                              "visible": true,
-                              "hasBorder": false,
-                              "cssClasses": null,
-                              "style": null
-                            }
-                          },
-                          "display": null,
-                          "subFields": []
-                        },
-                        {
-                          "id": "mainContactRole",
-                          "name": "mainContactRole",
-                          "parentId": "mainContact",
-                          "parent": "mainContact",
-                          "label": {
-                            "text": "Main Contact Role",
-                            "cssClasses": null,
-                            "style": null,
-                            "showLess": false
-                          },
-                          "accessPath": null,
-                          "kind": null,
-                          "typeInfo": {
-                            "vocabulary": null,
-                            "type": "vocabulary",
-                            "defaultValue": null,
-                            "values": null,
-                            "properties": {
-                              "url": "/api/vocabulary/types/Credit",
-                              "idField": "id",
-                              "labelField": "name"
-                            },
-                            "multiplicity": false,
-                            "prefill": null
-                          },
-                          "includedInSnippet": false,
-                          "deprecated": false,
-                          "form": {
-                            "dependsOn": null,
-                            "affects": null,
-                            "group": null,
-                            "description": {
-                              "text": null,
-                              "cssClasses": null,
-                              "style": null,
-                              "showLess": false
-                            },
-                            "suggestion": {
-                              "text": null,
-                              "cssClasses": null,
-                              "style": null,
-                              "showLess": false
-                            },
-                            "placeholder": null,
-                            "mandatory": false,
-                            "immutable": true,
-                            "display": {
-                              "placement": null,
-                              "order": 3,
                               "visible": true,
                               "hasBorder": false,
                               "cssClasses": null,

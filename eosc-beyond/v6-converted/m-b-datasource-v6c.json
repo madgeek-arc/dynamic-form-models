@@ -1294,7 +1294,7 @@
                 "defaultValue": null,
                 "values": null,
                 "properties": {
-                  "url": "/api/vocabulary/types/Access%20types",
+                  "url": "/api/vocabulary/types/Access%20type",
                   "idField": "id",
                   "labelField": "name"
                 },

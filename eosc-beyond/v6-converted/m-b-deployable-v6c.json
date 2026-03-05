@@ -1328,8 +1328,8 @@
                   "subFields": []
                 },
                 {
-                  "id": "creatorRole",
-                  "name": "creatorRole",
+                  "id": "role",
+                  "name": "role",
                   "parentId": "creators",
                   "parent": "creators",
                   "label": {

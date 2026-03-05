@@ -1265,8 +1265,8 @@
                   "subFields": []
                 },
                 {
-                  "id": "mainContactRole",
-                  "name": "mainContactRole",
+                  "id": "role",
+                  "name": "role",
                   "parentId": "mainContact",
                   "parent": "mainContact",
                   "label": {

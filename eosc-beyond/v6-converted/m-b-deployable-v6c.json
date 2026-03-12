@@ -745,7 +745,7 @@
                   "minLength": null,
                   "maxLength": null
                 },
-                "multiplicity": true,
+                "multiplicity": false,
                 "prefill": null
               },
               "includedInSnippet": false,

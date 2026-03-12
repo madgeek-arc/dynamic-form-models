@@ -117,7 +117,7 @@
                 "affects": null,
                 "group": null,
                 "description": {
-                  "text": "Full Name of the Provider/Organisation offering Resources and acting as main contact point for the Resources.",
+                  "text": "Name of the resource",
                   "cssClasses": null,
                   "style": null,
                   "showLess": false
@@ -229,7 +229,7 @@
                 "affects": null,
                 "group": null,
                 "description": {
-                  "text": null,
+                  "text": "Other persistent identifiers.",
                   "cssClasses": null,
                   "style": null,
                   "showLess": false
@@ -405,7 +405,7 @@
                 "affects": null,
                 "group": null,
                 "description": {
-                  "text": "EOSC Node",
+                  "text": "Node the resource belongs to.",
                   "cssClasses": null,
                   "style": null,
                   "showLess": false
@@ -580,7 +580,7 @@
                 "affects": null,
                 "group": null,
                 "description": {
-                  "text": "One of the EOSC entities we have identified in EOSC Beyond.",
+                  "text": "Type of the resource. One among: Service, DataSource, Adapter, InteroperabilityGuidelines, TrainingMaterial, DeployableApplication",
                   "cssClasses": null,
                   "style": null,
                   "showLess": false
@@ -639,7 +639,7 @@
                 "affects": null,
                 "group": null,
                 "description": {
-                  "text": "The name (or abbreviation) of the organisation that manages or delivers the Service, or that coordinates Service delivery in a federated scenario.",
+                  "text": "The organisation that manages or delivers the Resource.",
                   "cssClasses": null,
                   "style": null,
                   "showLess": false

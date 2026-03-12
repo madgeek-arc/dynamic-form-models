@@ -2389,8 +2389,8 @@
             {
               "id": "sqa",
               "name": "sqa",
-              "parentId": "Notes",
-              "parent": "Notes",
+              "parentId": null,
+              "parent": null,
               "label": {
                 "text": "Software Quality Assurance",
                 "cssClasses": null,
@@ -2401,12 +2401,10 @@
               "kind": null,
               "typeInfo": {
                 "vocabulary": null,
-                "type": "url",
+                "type": "composite",
                 "defaultValue": null,
                 "values": null,
-                "properties": {
-                  "strictValidation": true
-                },
+                "properties": {},
                 "multiplicity": false,
                 "prefill": null
               },
@@ -2417,7 +2415,7 @@
                 "affects": null,
                 "group": null,
                 "description": {
-                  "text": "Software Quality Assurance of the specific Adapter",
+                  "text": null,
                   "cssClasses": null,
                   "style": null,
                   "showLess": false
@@ -2428,20 +2426,138 @@
                   "style": null,
                   "showLess": false
                 },
-                "placeholder": "use http:// or https://",
+                "placeholder": null,
                 "mandatory": false,
                 "immutable": true,
                 "display": {
                   "placement": null,
                   "order": 1,
                   "visible": true,
-                  "hasBorder": false,
+                  "hasBorder": true,
                   "cssClasses": null,
                   "style": null
                 }
               },
               "display": null,
-              "subFields": []
+              "subFields": [
+                {
+                  "id": "sqaURL",
+                  "name": "sqaURL",
+                  "parentId": "sqa",
+                  "parent": "sqa",
+                  "label": {
+                    "text": "URL",
+                    "cssClasses": null,
+                    "style": null,
+                    "showLess": false
+                  },
+                  "accessPath": null,
+                  "kind": null,
+                  "typeInfo": {
+                    "vocabulary": null,
+                    "type": "url",
+                    "defaultValue": null,
+                    "values": null,
+                    "properties": {
+                      "minLength": null,
+                      "maxLength": null
+                    },
+                    "multiplicity": false,
+                    "prefill": null
+                  },
+                  "includedInSnippet": false,
+                  "deprecated": false,
+                  "form": {
+                    "dependsOn": null,
+                    "affects": null,
+                    "group": null,
+                    "description": {
+                      "text": null,
+                      "cssClasses": null,
+                      "style": null,
+                      "showLess": false
+                    },
+                    "suggestion": {
+                      "text": null,
+                      "cssClasses": null,
+                      "style": null,
+                      "showLess": false
+                    },
+                    "placeholder": "automatically filled after SQA assessment",
+                    "mandatory": false,
+                    "immutable": true,
+                    "display": {
+                      "placement": null,
+                      "order": 1,
+                      "visible": true,
+                      "hasBorder": false,
+                      "cssClasses": "uk-disabled",
+                      "style": null
+                    }
+                  },
+                  "display": null,
+                  "subFields": []
+                },
+                {
+                  "id": "sqaBadge",
+                  "name": "sqaBadge",
+                  "parentId": "sqa",
+                  "parent": "sqa",
+                  "label": {
+                    "text": "Badge",
+                    "cssClasses": null,
+                    "style": null,
+                    "showLess": false
+                  },
+                  "accessPath": null,
+                  "kind": null,
+                  "typeInfo": {
+                    "vocabulary": null,
+                    "type": "string",
+                    "defaultValue": null,
+                    "values": null,
+                    "properties": {
+                      "url": null,
+                      "idField": null,
+                      "labelField": null
+                    },
+                    "multiplicity": false,
+                    "prefill": null
+                  },
+                  "includedInSnippet": false,
+                  "deprecated": false,
+                  "form": {
+                    "dependsOn": null,
+                    "affects": null,
+                    "group": null,
+                    "description": {
+                      "text": null,
+                      "cssClasses": null,
+                      "style": null,
+                      "showLess": false
+                    },
+                    "suggestion": {
+                      "text": null,
+                      "cssClasses": null,
+                      "style": null,
+                      "showLess": false
+                    },
+                    "placeholder": "automatically filled after SQA assessment",
+                    "mandatory": false,
+                    "immutable": true,
+                    "display": {
+                      "placement": null,
+                      "order": 2,
+                      "visible": true,
+                      "hasBorder": false,
+                      "cssClasses": "uk-disabled",
+                      "style": null
+                    }
+                  },
+                  "display": null,
+                  "subFields": []
+                }
+              ]
             }
           ]
         }

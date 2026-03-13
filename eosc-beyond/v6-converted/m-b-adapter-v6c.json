@@ -1037,12 +1037,12 @@
               "subFields": []
             },
             {
-              "id": "softwareRepository",
-              "name": "softwareRepository",
+              "id": "repository",
+              "name": "repository",
               "parentId": null,
               "parent": null,
               "label": {
-                "text": "Software Repository",
+                "text": "Repository",
                 "cssClasses": null,
                 "style": null,
                 "showLess": false

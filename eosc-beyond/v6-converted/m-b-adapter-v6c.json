@@ -2517,7 +2517,7 @@
                     "defaultValue": null,
                     "values": null,
                     "properties": {
-                      "url": "/api/vocabulary/types/Badges",
+                      "url": "/api/vocabulary/types/Sqa%20badge",
                       "idField": "id",
                       "labelField": "name"
                     },

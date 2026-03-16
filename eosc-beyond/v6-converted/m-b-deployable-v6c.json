@@ -510,7 +510,7 @@
                   }
                 ],
                 "properties": {
-                  "formatToString": false
+                  "formatToString": true
                 },
                 "multiplicity": false,
                 "prefill": null
@@ -1999,7 +1999,7 @@
                   }
                 ],
                 "properties": {
-                  "formatToString": false
+                  "formatToString": true
                 },
                 "multiplicity": false,
                 "prefill": null

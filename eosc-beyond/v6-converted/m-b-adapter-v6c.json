@@ -2513,13 +2513,13 @@
                   "kind": null,
                   "typeInfo": {
                     "vocabulary": null,
-                    "type": "string",
+                    "type": "vocabulary",
                     "defaultValue": null,
                     "values": null,
                     "properties": {
-                      "url": null,
-                      "idField": null,
-                      "labelField": null
+                      "url": "/api/vocabulary/types/Badges",
+                      "idField": "id",
+                      "labelField": "name"
                     },
                     "multiplicity": false,
                     "prefill": null

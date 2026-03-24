@@ -447,7 +447,7 @@
                         "defaultValue": null,
                         "values": null,
                         "properties": {
-                          "url": "/api/service-extensions/monitoring/serviceTypes",
+                          "url": "/api/configurationTemplate/monitoring/serviceTypes",
                           "idField": "id",
                           "labelField": "name"
                         },

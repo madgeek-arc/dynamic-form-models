@@ -629,13 +629,13 @@
                   []
                 },
                 {
-                  "id": "payload_id",
-                  "name": "payload_id",
+                  "id": "openaire_id",
+                  "name": "openaire_id",
                   "parentId": "payload",
                   "parent": "payload",
                   "label":
                   {
-                    "text": "Payload ID",
+                    "text": "OpenAIRE ID",
                     "cssClasses": null,
                     "style": null,
                     "showLess": false

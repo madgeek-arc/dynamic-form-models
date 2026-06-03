@@ -502,7 +502,7 @@
                         "defaultValue": null,
                         "values": null,
                         "properties": {
-                          "url": "/api/vocabulary/byType/serviceTypesVoc",
+                          "url": "/api/configurationTemplate/monitoring/serviceTypes",
                           "idField": "id",
                           "labelField": "name"
                         },

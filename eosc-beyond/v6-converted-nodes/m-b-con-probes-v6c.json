@@ -6,7 +6,7 @@
   "type": null,
   "subType": null,
   "series": null,
-  "resourceType": null,
+  "resourceType": "configuration_template_instance",
   "creationDate": "2026-01-27T16:35:45.410+00:00",
   "createdBy": null,
   "modificationDate": "2026-01-27T16:35:45.410+00:00",

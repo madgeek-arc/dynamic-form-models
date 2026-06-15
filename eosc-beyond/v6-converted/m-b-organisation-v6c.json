@@ -392,8 +392,8 @@
                 "defaultValue": null,
                 "values": null,
                 "properties": {
-                  "url": "/api/vocabulary/types/Node",
-                  "idField": "id",
+                  "url": "https://federatedsearch.service.eosc-beyond.eu/api/nodes",
+                  "idField": "pid",
                   "labelField": "name"
                 },
                 "multiplicity": false,

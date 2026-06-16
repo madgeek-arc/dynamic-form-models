@@ -20,8 +20,8 @@
       "order": 0,
       "subSections": [
         {
-          "id": "rir",
-          "name": "rir",
+          "id": "Basic",
+          "name": "Basic",
           "description": null,
           "subType": null,
           "order": 1,
@@ -86,65 +86,6 @@
               "subFields": []
             },
             {
-              "id": "interoperabilityRecordId",
-              "name": "interoperabilityRecordId",
-              "parentId": null,
-              "parent": null,
-              "label": {
-                "text": "Interoperability Record Id",
-                "cssClasses": null,
-                "style": null,
-                "showLess": false
-              },
-              "accessPath": null,
-              "kind": null,
-              "typeInfo": {
-                "vocabulary": null,
-                "type": "vocabulary",
-                "defaultValue": null,
-                "values": null,
-                "properties": {
-                  "url": "/api/interoperabilityRecord/list",
-                  "idField": "id",
-                  "labelField": "name"
-                },
-                "multiplicity": false,
-                "prefill": null
-              },
-              "includedInSnippet": false,
-              "deprecated": false,
-              "form": {
-                "dependsOn": null,
-                "affects": null,
-                "group": null,
-                "description": {
-                  "text": "Interoperability Record List",
-                  "cssClasses": null,
-                  "style": null,
-                  "showLess": false
-                },
-                "suggestion": {
-                  "text": null,
-                  "cssClasses": null,
-                  "style": null,
-                  "showLess": false
-                },
-                "placeholder": null,
-                "mandatory": true,
-                "immutable": true,
-                "display": {
-                  "placement": null,
-                  "order": 1,
-                  "visible": false,
-                  "hasBorder": false,
-                  "cssClasses": "uk-disabled",
-                  "style": null
-                }
-              },
-              "display": null,
-              "subFields": []
-            },
-            {
               "id": "name",
               "name": "name",
               "parentId": null,
@@ -192,69 +133,10 @@
                 "immutable": true,
                 "display": {
                   "placement": null,
-                  "order": 3,
+                  "order": 1,
                   "visible": true,
                   "hasBorder": false,
                   "cssClasses": null,
-                  "style": null
-                }
-              },
-              "display": null,
-              "subFields": []
-            },
-            {
-              "id": "nodePID",
-              "name": "nodePID",
-              "parentId": null,
-              "parent": null,
-              "label": {
-                "text": "Node PID",
-                "cssClasses": null,
-                "style": null,
-                "showLess": false
-              },
-              "accessPath": null,
-              "kind": null,
-              "typeInfo": {
-                "vocabulary": null,
-                "type": "vocabulary",
-                "defaultValue": null,
-                "values": null,
-                "properties": {
-                  "url": "https://federatedsearch.service.eosc-beyond.eu/api/nodes",
-                  "idField": "pid",
-                  "labelField": "name"
-                },
-                "multiplicity": false,
-                "prefill": null
-              },
-              "includedInSnippet": false,
-              "deprecated": false,
-              "form": {
-                "dependsOn": null,
-                "affects": null,
-                "group": null,
-                "description": {
-                  "text": "Node the resource belongs to.",
-                  "cssClasses": null,
-                  "style": null,
-                  "showLess": false
-                },
-                "suggestion": {
-                  "text": null,
-                  "cssClasses": null,
-                  "style": null,
-                  "showLess": false
-                },
-                "placeholder": null,
-                "mandatory": false,
-                "immutable": true,
-                "display": {
-                  "placement": null,
-                  "order": 4,
-                  "visible": false,
-                  "hasBorder": false,
-                  "cssClasses": "uk-disabled",
                   "style": null
                 }
               },
@@ -306,7 +188,125 @@
                 "immutable": true,
                 "display": {
                   "placement": null,
-                  "order": 5,
+                  "order": 2,
+                  "visible": true,
+                  "hasBorder": false,
+                  "cssClasses": null,
+                  "style": null
+                }
+              },
+              "display": null,
+              "subFields": []
+            },
+            {
+              "id": "interoperabilityRecordId",
+              "name": "interoperabilityRecordId",
+              "parentId": null,
+              "parent": null,
+              "label": {
+                "text": "Interoperability Record Id",
+                "cssClasses": null,
+                "style": null,
+                "showLess": false
+              },
+              "accessPath": null,
+              "kind": null,
+              "typeInfo": {
+                "vocabulary": null,
+                "type": "vocabulary",
+                "defaultValue": null,
+                "values": null,
+                "properties": {
+                  "url": "/api/interoperabilityRecord/list",
+                  "idField": "id",
+                  "labelField": "name"
+                },
+                "multiplicity": false,
+                "prefill": null
+              },
+              "includedInSnippet": false,
+              "deprecated": false,
+              "form": {
+                "dependsOn": null,
+                "affects": null,
+                "group": null,
+                "description": {
+                  "text": "Interoperability Record List",
+                  "cssClasses": null,
+                  "style": null,
+                  "showLess": false
+                },
+                "suggestion": {
+                  "text": null,
+                  "cssClasses": null,
+                  "style": null,
+                  "showLess": false
+                },
+                "placeholder": null,
+                "mandatory": true,
+                "immutable": true,
+                "display": {
+                  "placement": null,
+                  "order": 3,
+                  "visible": false,
+                  "hasBorder": false,
+                  "cssClasses": "uk-disabled",
+                  "style": null
+                }
+              },
+              "display": null,
+              "subFields": []
+            },
+            {
+              "id": "nodePID",
+              "name": "nodePID",
+              "parentId": null,
+              "parent": null,
+              "label": {
+                "text": "Node PID",
+                "cssClasses": null,
+                "style": null,
+                "showLess": false
+              },
+              "accessPath": null,
+              "kind": null,
+              "typeInfo": {
+                "vocabulary": null,
+                "type": "vocabulary",
+                "defaultValue": null,
+                "values": null,
+                "properties": {
+                  "url": "https://federatedsearch.service.eosc-beyond.eu/api/nodes",
+                  "idField": "pid",
+                  "labelField": "name"
+                },
+                "multiplicity": false,
+                "prefill": null
+              },
+              "includedInSnippet": false,
+              "deprecated": false,
+              "form": {
+                "dependsOn": null,
+                "affects": null,
+                "group": null,
+                "description": {
+                  "text": "Node the resource belongs to.",
+                  "cssClasses": null,
+                  "style": null,
+                  "showLess": false
+                },
+                "suggestion": {
+                  "text": null,
+                  "cssClasses": null,
+                  "style": null,
+                  "showLess": false
+                },
+                "placeholder": null,
+                "mandatory": true,
+                "immutable": true,
+                "display": {
+                  "placement": null,
+                  "order": 4,
                   "visible": true,
                   "hasBorder": false,
                   "cssClasses": null,
@@ -361,7 +361,7 @@
                 "immutable": true,
                 "display": {
                   "placement": null,
-                  "order": 6,
+                  "order": 5,
                   "visible": true,
                   "hasBorder": true,
                   "cssClasses": null,

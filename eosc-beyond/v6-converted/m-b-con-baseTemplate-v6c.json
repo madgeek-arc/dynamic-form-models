@@ -6,22 +6,27 @@
   "type": null,
   "subType": null,
   "series": null,
-  "resourceType": "configuration_template_instance",
-  "creationDate": "2026-05-28T10:08:12.403+00:00",
+  "resourceType": "configuration_template",
+
+  "resourceClass": "ConfigurationTemplate",
+  "bundleClass": "ConfigurationTemplateBundle",
+  "bundlePayloadField": "configurationTemplate",
+
+  "creationDate": "2026-01-28T10:08:12.403+00:00",
   "createdBy": null,
-  "modificationDate": "2026-05-28T10:08:12.403+00:00",
+  "modificationDate": "2026-01-28T10:08:12.403+00:00",
   "modifiedBy": null,
   "sections": [
     {
-      "id": "configurationTemplateInstance",
-      "name": "configurationTemplateInstance",
+      "id": "configurationTemplate",
+      "name": "configurationTemplate",
       "description": null,
       "subType": null,
       "order": 0,
       "subSections": [
         {
-          "id": "template",
-          "name": "template",
+          "id": "Basic",
+          "name": "Basic",
           "description": null,
           "subType": null,
           "order": 1,
@@ -86,12 +91,12 @@
               "subFields": []
             },
             {
-              "id": "resourceId",
-              "name": "resourceId",
+              "id": "name",
+              "name": "name",
               "parentId": null,
               "parent": null,
               "label": {
-                "text": "Resource Id",
+                "text": "Name",
                 "cssClasses": null,
                 "style": null,
                 "showLess": false
@@ -117,13 +122,13 @@
                 "affects": null,
                 "group": null,
                 "description": {
-                  "text": null,
+                  "text": "Full Name of the Configuration Template.",
                   "cssClasses": null,
                   "style": null,
                   "showLess": false
                 },
                 "suggestion": {
-                  "text": null,
+                  "text": "Suggested length is 100 characters",
                   "cssClasses": null,
                   "style": null,
                   "showLess": false
@@ -134,9 +139,9 @@
                 "display": {
                   "placement": null,
                   "order": 1,
-                  "visible": false,
+                  "visible": true,
                   "hasBorder": false,
-                  "cssClasses": "uk-disabled",
+                  "cssClasses": null,
                   "style": null
                 }
               },
@@ -144,12 +149,12 @@
               "subFields": []
             },
             {
-              "id": "configurationTemplateId",
-              "name": "configurationTemplateId",
+              "id": "description",
+              "name": "description",
               "parentId": null,
               "parent": null,
               "label": {
-                "text": "Configuration Template Id",
+                "text": "Description",
                 "cssClasses": null,
                 "style": null,
                 "showLess": false
@@ -158,12 +163,68 @@
               "kind": null,
               "typeInfo": {
                 "vocabulary": null,
-                "type": "string",
+                "type": "richText",
+                "defaultValue": null,
+                "values": null,
+                "properties": {},
+                "multiplicity": false,
+                "prefill": null
+              },
+              "includedInSnippet": false,
+              "deprecated": false,
+              "form": {
+                "dependsOn": null,
+                "affects": null,
+                "group": null,
+                "description": {
+                  "text": "Description",
+                  "cssClasses": null,
+                  "style": null,
+                  "showLess": false
+                },
+                "suggestion": {
+                  "text": "Suggested length is 1000 characters",
+                  "cssClasses": null,
+                  "style": null,
+                  "showLess": false
+                },
+                "placeholder": null,
+                "mandatory": true,
+                "immutable": true,
+                "display": {
+                  "placement": null,
+                  "order": 2,
+                  "visible": true,
+                  "hasBorder": false,
+                  "cssClasses": null,
+                  "style": null
+                }
+              },
+              "display": null,
+              "subFields": []
+            },
+            {
+              "id": "interoperabilityRecordId",
+              "name": "interoperabilityRecordId",
+              "parentId": null,
+              "parent": null,
+              "label": {
+                "text": "Interoperability Record Id",
+                "cssClasses": null,
+                "style": null,
+                "showLess": false
+              },
+              "accessPath": null,
+              "kind": null,
+              "typeInfo": {
+                "vocabulary": null,
+                "type": "vocabulary",
                 "defaultValue": null,
                 "values": null,
                 "properties": {
-                  "minLength": null,
-                  "maxLength": null
+                  "url": "/api/interoperabilityRecord/list",
+                  "idField": "id",
+                  "labelField": "name"
                 },
                 "multiplicity": false,
                 "prefill": null
@@ -175,7 +236,7 @@
                 "affects": null,
                 "group": null,
                 "description": {
-                  "text": null,
+                  "text": "Interoperability Record List",
                   "cssClasses": null,
                   "style": null,
                   "showLess": false
@@ -188,64 +249,6 @@
                 },
                 "placeholder": null,
                 "mandatory": true,
-                "immutable": true,
-                "display": {
-                  "placement": null,
-                  "order": 2,
-                  "visible": false,
-                  "hasBorder": false,
-                  "cssClasses": "uk-disabled",
-                  "style": null
-                }
-              },
-              "display": null,
-              "subFields": []
-            },
-            {
-              "id": "catalogueId",
-              "name": "catalogueId",
-              "parentId": null,
-              "parent": null,
-              "label": {
-                "text": "Catalogue",
-                "cssClasses": null,
-                "style": null,
-                "showLess": false
-              },
-              "accessPath": null,
-              "kind": null,
-              "typeInfo": {
-                "vocabulary": null,
-                "type": "string",
-                "defaultValue": null,
-                "values": null,
-                "properties": {
-                  "minLength": null,
-                  "maxLength": null
-                },
-                "multiplicity": false,
-                "prefill": null
-              },
-              "includedInSnippet": false,
-              "deprecated": false,
-              "form": {
-                "dependsOn": null,
-                "affects": null,
-                "group": null,
-                "description": {
-                  "text": null,
-                  "cssClasses": null,
-                  "style": null,
-                  "showLess": false
-                },
-                "suggestion": {
-                  "text": null,
-                  "cssClasses": null,
-                  "style": null,
-                  "showLess": false
-                },
-                "placeholder": null,
-                "mandatory": false,
                 "immutable": true,
                 "display": {
                   "placement": null,
@@ -274,72 +277,10 @@
               "kind": null,
               "typeInfo": {
                 "vocabulary": null,
-                "type": "vocabulary",
-                "defaultValue": null,
-                "values": null,
-                "properties": {
-                  "url": "https://federatedsearch.service.eosc-beyond.eu/api/nodes",
-                  "idField": "pid",
-                  "labelField": "name"
-                },
-                "multiplicity": false,
-                "prefill": null
-              },
-              "includedInSnippet": false,
-              "deprecated": false,
-              "form": {
-                "dependsOn": null,
-                "affects": null,
-                "group": null,
-                "description": {
-                  "text": "Node the resource belongs to.",
-                  "cssClasses": null,
-                  "style": null,
-                  "showLess": false
-                },
-                "suggestion": {
-                  "text": null,
-                  "cssClasses": null,
-                  "style": null,
-                  "showLess": false
-                },
-                "placeholder": null,
-                "mandatory": false,
-                "immutable": true,
-                "display": {
-                  "placement": null,
-                  "order": 4,
-                  "visible": false,
-                  "hasBorder": false,
-                  "cssClasses": "uk-disabled",
-                  "style": null
-                }
-              },
-              "display": null,
-              "subFields": []
-            },
-            {
-              "id": "description",
-              "name": "description",
-              "parentId": null,
-              "parent": null,
-              "label": {
-                "text": "Description",
-                "cssClasses": null,
-                "style": null,
-                "showLess": false
-              },
-              "accessPath": null,
-              "kind": null,
-              "typeInfo": {
-                "vocabulary": null,
                 "type": "string",
                 "defaultValue": null,
                 "values": null,
-                "properties": {
-                  "minLength": null,
-                  "maxLength": null
-                },
+                "properties": {},
                 "multiplicity": false,
                 "prefill": null
               },
@@ -377,12 +318,12 @@
               "subFields": []
             },
             {
-              "id": "payload",
-              "name": "payload",
+              "id": "formModel",
+              "name": "formModel",
               "parentId": null,
               "parent": null,
               "label": {
-                "text": "Payload",
+                "text": "Form Model",
                 "cssClasses": "uk-display-none",
                 "style": null,
                 "showLess": false
@@ -429,9 +370,7 @@
                 }
               },
               "display": null,
-              "subFields": [
-
-              ]
+              "subFields": []
             }
           ]
         }

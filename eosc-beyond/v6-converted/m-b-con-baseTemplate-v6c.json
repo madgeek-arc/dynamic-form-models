@@ -365,7 +365,7 @@
                 "immutable": true,
                 "display": {
                   "placement": null,
-                  "order": 5,
+                  "order": 4,
                   "visible": false,
                   "hasBorder": false,
                   "cssClasses": "uk-disabled",
@@ -420,7 +420,7 @@
                 "immutable": true,
                 "display": {
                   "placement": null,
-                  "order": 4,
+                  "order": 5,
                   "visible": true,
                   "hasBorder": true,
                   "cssClasses": null,

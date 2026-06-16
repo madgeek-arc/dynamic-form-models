@@ -274,12 +274,13 @@
               "kind": null,
               "typeInfo": {
                 "vocabulary": null,
-                "type": "string",
+                "type": "vocabulary",
                 "defaultValue": null,
                 "values": null,
                 "properties": {
-                  "minLength": null,
-                  "maxLength": null
+                  "url": "https://federatedsearch.service.eosc-beyond.eu/api/nodes",
+                  "idField": "pid",
+                  "labelField": "name"
                 },
                 "multiplicity": false,
                 "prefill": null
@@ -291,7 +292,7 @@
                 "affects": null,
                 "group": null,
                 "description": {
-                  "text": null,
+                  "text": "Node the resource belongs to.",
                   "cssClasses": null,
                   "style": null,
                   "showLess": false

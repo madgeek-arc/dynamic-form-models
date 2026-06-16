@@ -221,8 +221,8 @@
                 "defaultValue": null,
                 "values": null,
                 "properties": {
-                  "url": "/api/vocabulary/types/Node",
-                  "idField": "id",
+                  "url": "https://federatedsearch.service.eosc-beyond.eu/api/nodes",
+                  "idField": "pid",
                   "labelField": "name"
                 },
                 "multiplicity": false,
@@ -235,7 +235,7 @@
                 "affects": null,
                 "group": null,
                 "description": {
-                  "text": null,
+                  "text": "Node the resource belongs to.",
                   "cssClasses": null,
                   "style": null,
                   "showLess": false

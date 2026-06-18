@@ -134,9 +134,9 @@
                 "display": {
                   "placement": null,
                   "order": 1,
-                  "visible": true,
+                  "visible": false,
                   "hasBorder": false,
-                  "cssClasses": "uk-disabled",
+                  "cssClasses": null,
                   "style": null
                 }
               },
@@ -189,9 +189,9 @@
                 "display": {
                   "placement": null,
                   "order": 2,
-                  "visible": true,
+                  "visible": false,
                   "hasBorder": false,
-                  "cssClasses": "uk-disabled",
+                  "cssClasses": null,
                   "style": null
                 }
               },

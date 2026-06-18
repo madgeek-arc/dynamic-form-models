@@ -136,7 +136,7 @@
                   "order": 1,
                   "visible": true,
                   "hasBorder": false,
-                  "cssClasses": null,
+                  "cssClasses": "uk-disabled",
                   "style": null
                 }
               },
@@ -191,7 +191,7 @@
                   "order": 2,
                   "visible": true,
                   "hasBorder": false,
-                  "cssClasses": null,
+                  "cssClasses": "uk-disabled",
                   "style": null
                 }
               },

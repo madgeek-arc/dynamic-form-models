@@ -13,8 +13,8 @@
   "modifiedBy": null,
   "sections": [
     {
-      "id": "ConfigurationTemplateInstance",
-      "name": "ConfigurationTemplateInstance",
+      "id": "configurationTemplateInstance",
+      "name": "configurationTemplateInstance",
       "description": null,
       "subType": null,
       "order": 0,
@@ -246,7 +246,7 @@
                 "immutable": true,
                 "display": {
                   "placement": null,
-                  "order": 4,
+                  "order": 3,
                   "visible": false,
                   "hasBorder": false,
                   "cssClasses": "uk-disabled",
@@ -301,7 +301,7 @@
                 "immutable": true,
                 "display": {
                   "placement": null,
-                  "order": 6,
+                  "order": 4,
                   "visible": true,
                   "hasBorder": true,
                   "cssClasses": null,
